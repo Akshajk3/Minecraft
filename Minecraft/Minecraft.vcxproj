@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{086829fd-d0f1-4d77-8519-3d89cafd32ec}</ProjectGuid>
+    <RootNamespace>Minecraft</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies;$(SolutionDir)Dependencies\glad\include;$(SolutionDir)Dependencies\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\GLFW\lib-vc2022</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies;$(SolutionDir)Dependencies\glad\include;$(SolutionDir)Dependencies\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\GLFW\lib-vc2022</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Chunk.cpp" />
+    <ClCompile Include="EBO.cpp" />
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Models.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="stb.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="VAO.cpp" />
+    <ClCompile Include="VBO.cpp" />
+    <ClCompile Include="World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Chunk.h" />
+    <ClInclude Include="EBO.h" />
+    <ClInclude Include="Models.h" />
+    <ClInclude Include="Numbers.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="VAO.h" />
+    <ClInclude Include="VBO.h" />
+    <ClInclude Include="World.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="frag.glsl" />
+    <None Include="vert.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\aqua_cloth.png" />
+    <Image Include="textures\bedrock.png" />
+    <Image Include="textures\black_cloth.png" />
+    <Image Include="textures\blue_cloth.png" />
+    <Image Include="textures\bookshelf.png" />
+    <Image Include="textures\bricks.png" />
+    <Image Include="textures\brown_mushroom.png" />
+    <Image Include="textures\cactus_bottom.png" />
+    <Image Include="textures\cactus_side.png" />
+    <Image Include="textures\cactus_top.png" />
+    <Image Include="textures\chest_front.png" />
+    <Image Include="textures\chest_side.png" />
+    <Image Include="textures\chest_top.png" />
+    <Image Include="textures\clay.png" />
+    <Image Include="textures\coal_ore.png" />
+    <Image Include="textures\cobblestone.png" />
+    <Image Include="textures\crafting_table_top.png" />
+    <Image Include="textures\crafting_table_x.png" />
+    <Image Include="textures\crafting_table_z.png" />
+    <Image Include="textures\crops.png" />
+    <Image Include="textures\cyan_cloth.png" />
+    <Image Include="textures\daisy.png" />
+    <Image Include="textures\dead_bush.png" />
+    <Image Include="textures\diamond_block.png" />
+    <Image Include="textures\diamond_ore.png" />
+    <Image Include="textures\dirt.png" />
+    <Image Include="textures\fire.png" />
+    <Image Include="textures\furnace_front.png" />
+    <Image Include="textures\furnace_side.png" />
+    <Image Include="textures\furnace_y.png" />
+    <Image Include="textures\glass.png" />
+    <Image Include="textures\gold_block.png" />
+    <Image Include="textures\gold_ore.png" />
+    <Image Include="textures\grass.png" />
+    <Image Include="textures\grass_side.png" />
+    <Image Include="textures\gravel.png" />
+    <Image Include="textures\green_cloth.png" />
+    <Image Include="textures\grey_cloth.png" />
+    <Image Include="textures\ice.png" />
+    <Image Include="textures\indigo_cloth.png" />
+    <Image Include="textures\iron_block.png" />
+    <Image Include="textures\iron_door.png" />
+    <Image Include="textures\iron_door_bottom_half.png" />
+    <Image Include="textures\iron_ore.png" />
+    <Image Include="textures\jukebox.png" />
+    <Image Include="textures\jukebox_top.png" />
+    <Image Include="textures\ladder.png" />
+    <Image Include="textures\lava.png" />
+    <Image Include="textures\leaves.png" />
+    <Image Include="textures\lever.png" />
+    <Image Include="textures\lime_cloth.png" />
+    <Image Include="textures\lit_furnace_front.png" />
+    <Image Include="textures\log_side.png" />
+    <Image Include="textures\log_y.png" />
+    <Image Include="textures\magenta_cloth.png" />
+    <Image Include="textures\mob_spawner.png" />
+    <Image Include="textures\mossy_cobblestone.png" />
+    <Image Include="textures\obsidian.png" />
+    <Image Include="textures\off_redstone_torch.png" />
+    <Image Include="textures\off_redstone_torch_top.png" />
+    <Image Include="textures\orange_cloth.png" />
+    <Image Include="textures\pink_cloth.png" />
+    <Image Include="textures\planks.png" />
+    <Image Include="textures\purple_cloth.png" />
+    <Image Include="textures\rails.png" />
+    <Image Include="textures\redstone_ore.png" />
+    <Image Include="textures\redstone_torch.png" />
+    <Image Include="textures\redstone_torch_top.png" />
+    <Image Include="textures\redstone_wire.png" />
+    <Image Include="textures\red_cloth.png" />
+    <Image Include="textures\red_mushroom.png" />
+    <Image Include="textures\red_rose.png" />
+    <Image Include="textures\rose.png" />
+    <Image Include="textures\sand.png" />
+    <Image Include="textures\sapling.png" />
+    <Image Include="textures\slab_side.png" />
+    <Image Include="textures\slab_y.png" />
+    <Image Include="textures\snow.png" />
+    <Image Include="textures\snowy_grass_side.png" />
+    <Image Include="textures\soil.png" />
+    <Image Include="textures\sponge.png" />
+    <Image Include="textures\stone.png" />
+    <Image Include="textures\sugar_cane.png" />
+    <Image Include="textures\tnt_bottom.png" />
+    <Image Include="textures\tnt_side.png" />
+    <Image Include="textures\tnt_top.png" />
+    <Image Include="textures\torch.png" />
+    <Image Include="textures\torch_top.png" />
+    <Image Include="textures\unknown.png" />
+    <Image Include="textures\violet_cloth.png" />
+    <Image Include="textures\water.png" />
+    <Image Include="textures\white_cloth.png" />
+    <Image Include="textures\wooden_door.png" />
+    <Image Include="textures\yellow_cloth.png" />
+    <Image Include="textures\yellow_flower.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

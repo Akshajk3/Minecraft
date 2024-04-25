@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "name": "macos-clang-arm64",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/Dependencies"
+      ],
+      "compilerPath": "/usr/bin/clang",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "macos-clang-arm64",
+      "compilerArgs": [
+        "-I${workspaceFolder}/Dependencies",
+        "-I${workspaceFolder}/Dependencies/glad/include"
+      ]
+    }
+  ],
+  "version": 4
+}

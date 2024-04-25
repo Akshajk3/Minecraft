@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{008f55e6-528d-4ecf-a186-a0124f3412b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\textures">
+      <UniqueIdentifier>{b883bc84-4933-4de5-a302-8f739b826ece}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Models.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Models.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Numbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\slab_y.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\snow.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\snowy_grass_side.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\soil.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\sponge.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\stone.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\sugar_cane.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\tnt_bottom.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\tnt_side.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\tnt_top.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\torch.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\torch_top.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\unknown.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\violet_cloth.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\water.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\white_cloth.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\wooden_door.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\yellow_cloth.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\yellow_flower.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\aqua_cloth.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\bedrock.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\black_cloth.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\blue_cloth.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\bookshelf.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\bricks.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\brown_mushroom.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\cactus_bottom.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\cactus_side.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\cactus_top.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\chest_front.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\chest_side.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\chest_top.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\clay.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\coal_ore.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\cobblestone.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\crafting_table_top.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\crafting_table_x.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\crafting_table_z.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\crops.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\cyan_cloth.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\daisy.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\dead_bush.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\diamond_block.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\diamond_ore.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\dirt.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\fire.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\furnace_front.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\furnace_side.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\furnace_y.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\glass.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\gold_block.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\gold_ore.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\grass.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\grass_side.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\gravel.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\green_cloth.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\grey_cloth.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\ice.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\indigo_cloth.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\iron_block.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\iron_door.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\iron_door_bottom_half.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\iron_ore.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\jukebox.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\jukebox_top.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\ladder.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\lava.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\leaves.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\lever.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\lime_cloth.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\lit_furnace_front.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\log_side.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\log_y.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\magenta_cloth.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\mob_spawner.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\mossy_cobblestone.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\obsidian.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\off_redstone_torch.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\off_redstone_torch_top.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\orange_cloth.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\pink_cloth.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\planks.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\purple_cloth.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\rails.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\red_cloth.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\red_mushroom.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\red_rose.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\redstone_ore.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\redstone_torch.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\redstone_torch_top.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\redstone_wire.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\rose.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\sand.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\sapling.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\slab_side.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
