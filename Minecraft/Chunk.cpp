@@ -1,10 +1,8 @@
 #include "Chunk.h"
 
-Chunk::Chunk(glm::vec2 pos)
+Chunk::Chunk(glm::vec2 pos, SimplexNoise& noise)
     : position(pos)
 {
-    SimplexNoise simplexNoise;
-
 	for (int x = 0; x < CHUNK_WIDTH; x++)
 	{
         for (int y = 0; y < CHUNK_HEIGHT; y++)
@@ -16,7 +14,7 @@ Chunk::Chunk(glm::vec2 pos)
                 float worldX = position.x * CHUNK_WIDTH + x;
                 float worldZ = position.y * CHUNK_WIDTH + z;
 
-                float noiseVal = simplexNoise.fractal(4, worldX * 0.01, worldZ * 0.01);
+                float noiseVal = noise.fractal(4, worldX * 0.01, worldZ * 0.01);
                 int height = static_cast<int>((noiseVal + 1.0) * 32 / 2);
 
                 if (y < height)

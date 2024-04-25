@@ -1,1229 +1,404 @@
-﻿  Chunk.cpp
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(81,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+﻿  Main.cpp
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(81,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(81,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(81,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(81,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(81,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(81,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(81,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(82,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(82,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(82,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(82,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(82,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(82,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(82,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(82,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(83,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(83,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(83,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(83,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(83,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(83,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(83,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(83,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(84,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(84,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(84,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(84,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(84,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(84,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(84,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(84,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(86,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(86,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(86,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(86,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(86,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(86,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(86,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(86,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(87,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(87,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(87,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(87,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(87,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(87,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(87,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(87,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(88,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(88,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(88,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(88,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(88,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(88,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(88,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(88,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(89,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(89,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(89,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(89,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(89,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(89,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(89,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(89,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(96,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(96,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(96,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(96,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(96,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(96,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(96,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(96,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(97,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(97,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(97,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(97,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(97,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(97,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(97,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(97,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(98,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(98,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(98,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(98,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(98,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(98,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(98,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(98,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(99,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(99,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(99,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(99,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(99,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(99,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(99,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(99,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(101,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(101,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(101,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(101,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(101,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(101,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(101,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(101,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(102,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(102,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(102,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(102,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(102,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(102,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(102,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(102,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(103,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(103,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(103,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(103,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(103,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(103,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(103,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(103,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(104,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(104,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(104,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(104,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(104,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(104,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(104,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(104,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(106,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(106,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(106,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(106,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(106,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(106,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(106,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(106,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(107,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(107,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(107,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(107,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(107,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(107,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(107,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(107,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(108,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(108,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(108,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(108,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(108,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(108,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(108,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(108,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(109,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(109,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(109,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(109,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(109,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(109,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(109,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Numbers.h(109,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
           with
           [
               _Ty=GLfloat
           ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Chunk.cpp(49,28): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Chunk.cpp(51,28): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Chunk.cpp(67,38): warning C4267: 'initializing': conversion from 'size_t' to 'GLuint', possible loss of data
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Chunk.cpp(105,50): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Chunk.cpp(148,20): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Chunk.cpp(153,20): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-  Main.cpp
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(81,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(81,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(81,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(81,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(82,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(82,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(82,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(82,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(83,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(83,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(83,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(83,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(84,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(84,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(84,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(84,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(86,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(86,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(86,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(86,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(87,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(87,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(87,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(87,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(88,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(88,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(88,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(88,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(89,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(89,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(89,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(89,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(96,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(96,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(96,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(96,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(97,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(97,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(97,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(97,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(98,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(98,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(98,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(98,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(99,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(99,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(99,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(99,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(101,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(101,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(101,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(101,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(102,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(102,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(102,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(102,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(103,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(103,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(103,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(103,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(104,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(104,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(104,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(104,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(106,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(106,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(106,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(106,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(107,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(107,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(107,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(107,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(108,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(108,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(108,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(108,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(109,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(109,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(109,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(109,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-  World.cpp
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(81,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(81,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(81,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(81,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(82,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(82,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(82,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(82,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(83,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(83,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(83,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(83,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(84,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(84,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(84,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(84,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(86,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(86,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(86,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(86,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(87,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(87,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(87,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(87,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(88,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(88,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(88,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(88,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(89,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(89,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(89,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(89,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(96,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(96,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(96,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(96,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(97,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(97,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(97,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(97,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(98,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(98,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(98,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(98,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(99,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(99,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(99,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(99,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(101,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(101,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(101,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(101,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(102,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(102,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(102,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(102,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(103,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(103,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(103,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(103,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(104,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(104,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(104,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(104,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(106,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(106,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(106,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(106,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(107,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(107,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(107,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(107,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(108,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(108,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(108,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(108,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(109,10): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(109,15): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(109,20): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Numbers.h(109,25): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=GLfloat
-          ]
-  Generating Code...
-  Minecraft.vcxproj -> C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\x64\Debug\Minecraft.exe
+  Minecraft.vcxproj -> C:\Users\Kanumuri\Documents\GitHub\Minecraft\x64\Debug\Minecraft.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

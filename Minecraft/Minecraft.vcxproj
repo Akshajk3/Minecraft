@@ -141,6 +141,7 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Models.cpp" />
     <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="SimplexNoise.cpp" />
     <ClCompile Include="stb.cpp" />
     <ClCompile Include="Texture.cpp" />
     <ClCompile Include="VAO.cpp" />
@@ -155,6 +156,7 @@
     <ClInclude Include="Models.h" />
     <ClInclude Include="Numbers.h" />
     <ClInclude Include="Shader.h" />
+    <ClInclude Include="SimplexNoise.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="VAO.h" />
     <ClInclude Include="VBO.h" />

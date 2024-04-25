@@ -17,13 +17,13 @@
 class Chunk
 {
 public:
-    Chunk(glm::vec2 pos);
+    Chunk(glm::vec2 pos, SimplexNoise& noise);
     ~Chunk();
 
     void DeleteChunk();
     void DrawChunk();
     
-    bool IsBlockHidden(int x, int y, int z, int ) const;
+    bool IsBlockHidden(int x, int y, int z, int face) const;
     
     glm::vec2 position;
     

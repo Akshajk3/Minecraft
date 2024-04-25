@@ -9,8 +9,8 @@
 #include "Camera.h"
 #include "World.h"
 
-const unsigned int width = 1280;
-const unsigned int height = 720;
+const unsigned int width = 1920;
+const unsigned int height = 1080;
 glm::vec3 SkyColor(0.007f, 0.8f, 0.996f);
 glm::vec3 StartingPos(0.0f, 20.0f, 0.0f);
 
@@ -85,7 +85,7 @@ int main()
 
     glEnable(GL_DEPTH_TEST);
 
-    World world(4, 32);
+    World world(8, 512);
 
     camera.Position = glm::vec3(world.GetSize() / 2 * CHUNK_WIDTH, StartingPos.y, world.GetSize() / 2 * CHUNK_LENGTH);
     

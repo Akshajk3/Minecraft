@@ -3,6 +3,7 @@
 #include <vector>
 
 #include "Chunk.h"
+#include "SimplexNoise.h"
 
 class World
 {
@@ -24,6 +25,8 @@ private:
 	std::vector<std::vector<Chunk*>> chunks;
 	int renderDistance;
 	int WorldSize;
+
+	SimplexNoise simplexNoise;
 
 	Texture dirtTex = Texture("textures/dirt.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
 	Texture stoneTex = Texture("textures/cobblestone.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);

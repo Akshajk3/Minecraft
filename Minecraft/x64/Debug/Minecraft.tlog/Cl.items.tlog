@@ -1,13 +1,14 @@
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Block.cpp;C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\x64\Debug\Block.obj
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Camera.cpp;C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\x64\Debug\Camera.obj
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Chunk.cpp;C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\x64\Debug\Chunk.obj
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\EBO.cpp;C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\x64\Debug\EBO.obj
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\glad.c;C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\x64\Debug\glad.obj
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Main.cpp;C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\x64\Debug\Main.obj
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Models.cpp;C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\x64\Debug\Models.obj
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Shader.cpp;C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\x64\Debug\Shader.obj
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\stb.cpp;C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\x64\Debug\stb.obj
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\Texture.cpp;C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\x64\Debug\Texture.obj
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\VAO.cpp;C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\x64\Debug\VAO.obj
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\VBO.cpp;C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\x64\Debug\VBO.obj
-C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\World.cpp;C:\Users\Kanumuri\Documents\GitHub\VS-Code-Projects\C++ Projects\Minecraft\Minecraft\x64\Debug\World.obj
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Block.cpp;C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\x64\Debug\Block.obj
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Camera.cpp;C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\x64\Debug\Camera.obj
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Chunk.cpp;C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\x64\Debug\Chunk.obj
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\EBO.cpp;C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\x64\Debug\EBO.obj
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\glad.c;C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\x64\Debug\glad.obj
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Main.cpp;C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\x64\Debug\Main.obj
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Models.cpp;C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\x64\Debug\Models.obj
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Shader.cpp;C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\x64\Debug\Shader.obj
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\SimplexNoise.cpp;C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\x64\Debug\SimplexNoise.obj
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\stb.cpp;C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\x64\Debug\stb.obj
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\Texture.cpp;C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\x64\Debug\Texture.obj
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\VAO.cpp;C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\x64\Debug\VAO.obj
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\VBO.cpp;C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\x64\Debug\VBO.obj
+C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\World.cpp;C:\Users\Kanumuri\Documents\GitHub\Minecraft\Minecraft\x64\Debug\World.obj

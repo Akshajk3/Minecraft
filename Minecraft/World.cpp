@@ -54,7 +54,7 @@ void World::UnloadChunk(int x, int y)
 
 void World::LoadChunk(int x, int y, int chunkX, int chunkY)
 {
-    chunks[x][y] = new Chunk(glm::vec2(chunkX, chunkY));
+    chunks[x][y] = new Chunk(glm::vec2(chunkX, chunkY), simplexNoise);
 }
 
 void World::DrawChunks()
