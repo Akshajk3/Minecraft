@@ -16,7 +16,7 @@ void main()
     // Increase the fog color intensity
     vec3 intensifiedFogColor = fogColor; // Adjust this multiplier as needed
 
-    vec4 finalColor = vec4(texColor.rgb, 1.0);
+    vec4 finalColor = vec4(texColor.rgb, texColor.a * 0.5);
     
     FragColor = finalColor;
 }

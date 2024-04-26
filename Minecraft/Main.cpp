@@ -9,8 +9,8 @@
 #include "Camera.h"
 #include "World.h"
 
-const unsigned int width = 1920;
-const unsigned int height = 1080;
+const unsigned int width = 1280;
+const unsigned int height = 720;
 glm::vec3 SkyColor(0.007f, 0.8f, 0.996f);
 glm::vec3 StartingPos(0.0f, 20.0f, 0.0f);
 
@@ -76,12 +76,12 @@ int main()
 
     glViewport(0, 0, width, height);
 
+    glm::vec3 fogColor = glm::vec3(0.5f, 0.5f, 0.5f);
+    float fogStart = 10.0f;
+    float fogEnd = 50.0f;
+    float fogDensity = 0.02f;
+
     Shader shaderProgram("vert.glsl", "frag.glsl");
-
-    std::string texPath = "textures/grass.png";
-
-    Texture grassTex(texPath.c_str(), GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
-    grassTex.texUnit(shaderProgram, "tex0", 0);
 
     glEnable(GL_DEPTH_TEST);
 
@@ -103,16 +103,21 @@ int main()
 
     glEnable(GL_CULL_FACE);
     glCullFace(GL_FRONT);
+
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
     
     while (!glfwWindowShouldClose(window))
     {
         glClearColor(SkyColor.x, SkyColor.y, SkyColor.z, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        camera.Inputs(window);
-        camera.Matrix(45.0f, 0.1f, 400.0f, shaderProgram, "camMatrix");
-
         shaderProgram.Activate();
+
+        camera.Inputs(window);
+        camera.CamMatrix(45.0f, 0.1f, 60.0f, shaderProgram);
+        camera.PosMatrix(shaderProgram);
+
         //grassTex.Bind();
 
         world.ManageChunks(glm::vec2(camera.Position.x, camera.Position.z));
@@ -140,7 +145,6 @@ int main()
         glfwPollEvents();
     }
 
-    grassTex.Delete();
     shaderProgram.Delete();
     glfwDestroyWindow(window);
     glfwTerminate();

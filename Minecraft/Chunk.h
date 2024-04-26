@@ -3,6 +3,11 @@
 #include <glad/glad.h>
 #include <vector>
 #include <glm/glm.hpp>
+#include <thread>
+#include <atomic>
+#include <mutex>
+#include <functional>
+#include <chrono>
 
 #include "Block.h"
 #include "Numbers.h"
@@ -17,24 +22,27 @@
 class Chunk
 {
 public:
-    Chunk(glm::vec2 pos, SimplexNoise& noise);
+    Chunk(glm::vec2 pos, SimplexNoise& noise, int waterLevel);
     ~Chunk();
 
     void DeleteChunk();
     void DrawChunk();
     
-    bool IsBlockHidden(int x, int y, int z, int face) const;
+    bool IsBlockHidden(int x, int y, int z, int face, bool water) const;
     
     glm::vec2 position;
     
-private:
     int blocks[CHUNK_VOL];
 
+private:
     std::vector<GLfloat> meshVertexPositions;
     std::vector<GLfloat> meshTexCoords;
     std::vector<GLfloat> meshShadingValues;
     std::vector<GLuint> meshIndices;
     
+    std::vector<std::thread> threads;
+    std::atomic<bool> generationComplete;
+    std::mutex generationMutex;
 
     Texture dirtTex = Texture("textures/dirt.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
     Texture stoneTex = Texture("textures/cobblestone.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
@@ -44,4 +52,5 @@ private:
 
     void GenerateMesh();
     void AddFace();
+    void GenerateChunkSection(Chunk& chunk, int startY, int endY, SimplexNoise& noise, int waterLevel);
 };

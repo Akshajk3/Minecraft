@@ -1,34 +1,62 @@
 #include "Chunk.h"
 
-Chunk::Chunk(glm::vec2 pos, SimplexNoise& noise)
+Chunk::Chunk(glm::vec2 pos, SimplexNoise& noise, int waterLevel)
     : position(pos)
 {
-	for (int x = 0; x < CHUNK_WIDTH; x++)
-	{
-        for (int y = 0; y < CHUNK_HEIGHT; y++)
-        {
-            for (int z = 0; z < CHUNK_LENGTH; z++)
-            {
-                int index = x + CHUNK_WIDTH * (y + CHUNK_HEIGHT * z);
+    int numThreads = std::thread::hardware_concurrency();
+    int sectionHeight = CHUNK_HEIGHT / numThreads;
 
-                float worldX = position.x * CHUNK_WIDTH + x;
-                float worldZ = position.y * CHUNK_WIDTH + z;
+    auto start = std::chrono::high_resolution_clock::now(); // Start timing
 
-                float noiseVal = noise.fractal(4, worldX * 0.01, worldZ * 0.01);
-                int height = static_cast<int>((noiseVal + 1.0) * 32 / 2);
+    for (int i = 0; i < numThreads; ++i) {
+        int startY = i * sectionHeight;
+        int endY = (i == numThreads - 1) ? CHUNK_HEIGHT : startY + sectionHeight;
 
-                if (y < height)
-                    blocks[index] = 1;
-                else
-                    blocks[index] = 0;
-            }
-        }
-	}
-    
+        threads.emplace_back([this, startY, endY, &noise, waterLevel]() {
+            auto threadStart = std::chrono::high_resolution_clock::now(); // Start thread timing
+            GenerateChunkSection(*this, startY, endY, noise, waterLevel); // Pass the chunk object
+            auto threadEnd = std::chrono::high_resolution_clock::now(); // End thread timing
+            std::chrono::duration<double> threadDuration = threadEnd - threadStart;
+            //std::cout << "Thread finished in " << threadDuration.count() << " seconds." << std::endl;
+        });
+    }
+
+    // Wait for all threads to finish
+    for (auto& thread : threads) {
+        thread.join();
+    }
+
+    auto end = std::chrono::high_resolution_clock::now(); // End timing
+    std::chrono::duration<double> duration = end - start;
+    //std::cout << "Chunk generation finished in " << duration.count() << " seconds." << std::endl;
+
     GenerateMesh();
     
-	std::cout << meshVertexPositions.size() << std::endl;
+    //std::cout << meshVertexPositions.size() << std::endl;
 }
+
+// Modify GenerateChunkSection to take Chunk as its first argument
+void Chunk::GenerateChunkSection(Chunk& chunk, int startY, int endY, SimplexNoise& noise, int waterLevel) {
+    // Generation logic remains the same
+    for (int x = 0; x < CHUNK_WIDTH; x++) {
+        for (int y = startY; y < endY; y++) {
+            for (int z = 0; z < CHUNK_LENGTH; z++) {
+                int index = x + CHUNK_WIDTH * (y + CHUNK_HEIGHT * z);
+                float worldX = chunk.position.x * CHUNK_WIDTH + x;
+                float worldZ = chunk.position.y * CHUNK_WIDTH + z;
+                float noiseVal = noise.fractal(4, worldX * 0.01, worldZ * 0.01);
+                int height = static_cast<int>((noiseVal + 1.0) * 32/ 2);
+                if (y < height)
+                    chunk.blocks[index] = 1; // or any solid block
+                else if (y < waterLevel)
+                    chunk.blocks[index] = 2; // water
+                else
+                    chunk.blocks[index] = 0; // air
+            }
+        }
+    }
+}
+
 
 Chunk::~Chunk()
 {
@@ -45,7 +73,7 @@ void Chunk::DrawChunk()
     glDrawElements(GL_TRIANGLES, meshIndices.size(), GL_UNSIGNED_INT, 0);
 }
 
-bool Chunk::IsBlockHidden(int x, int y, int z, int face) const
+bool Chunk::IsBlockHidden(int x, int y, int z, int face, bool water) const
 {
     // Calculate the index of the current block
     int index = x + CHUNK_WIDTH * (y + CHUNK_HEIGHT * z);
@@ -84,7 +112,10 @@ bool Chunk::IsBlockHidden(int x, int y, int z, int face) const
         // Calculate the index of the neighboring block
         int nIndex = nx + CHUNK_WIDTH * (ny + CHUNK_HEIGHT * nz);
         // Check if the neighboring block is empty
-        return blocks[nIndex] == 0;
+        if (water)
+            return blocks[nIndex] != 2;
+        else
+            return blocks[nIndex] != 1;
     }
 }
 
@@ -109,8 +140,6 @@ void Chunk::GenerateMesh()
         for (int y = 0; y < CHUNK_HEIGHT; y++) {
             for (int z = 0; z < CHUNK_LENGTH; z++) {
                 int index = x + CHUNK_WIDTH * (y + CHUNK_HEIGHT * z);
-                if (blocks[index] == 1)
-                {
                     float worldX = position.x * CHUNK_WIDTH + x;
                     float worldZ = position.y * CHUNK_WIDTH + z;
 
@@ -119,8 +148,53 @@ void Chunk::GenerateMesh()
                     float startY = 0.0;
                     float startZ = position.y * CHUNK_LENGTH;
                 
+                if (blocks[index] != 0)
+                {
+                    std::vector<GLfloat> sideTexCoords;
+                    std::vector<GLfloat> backTexCoords;
+                    std::vector<GLfloat> topTexCoords;
+                    bool water = false;
+
+                    switch (blocks[index])
+                    {
+                    case 1:
+                        sideTexCoords = {
+                            0.5f, 0.0f,
+                            0.5f, 0.5f,
+                            1.0f, 0.5f,
+                            1.0f, 0.0f 
+                        };
+                        backTexCoords = {
+                            0.5f, 0.0f,
+                            1.0f, 0.0f,
+                            1.0f, 0.5f,
+                            0.5f, 0.5f
+                        };
+                        topTexCoords = {
+                            0.0f, 0.0f,
+                            0.0f, 0.5f,
+                            0.5f, 0.5f,
+                            0.5f, 0.0f 
+                        };
+                        break;
+                    case 2:
+                        sideTexCoords = {
+                            0.5f, 0.5f,
+                            1.0f, 0.5f,
+                            1.0f, 1.0f,
+                            0.5f, 1.0f 
+                        };
+                        backTexCoords = sideTexCoords;
+                        topTexCoords = sideTexCoords;
+
+                        water = true;
+                        break;
+                    default:
+                        break;
+                    }
+
                     // Front Face
-                    if (IsBlockHidden(x, y, z, 0))
+                    if (IsBlockHidden(x, y, z, 0, water))
                     {
                         meshVertexPositions.insert(meshVertexPositions.end(), {
                             startX + x, startY + y, startZ + z + 1,
@@ -129,12 +203,7 @@ void Chunk::GenerateMesh()
                             startX + x + 1, startY + y, startZ + z + 1,
                         });
 
-                        meshTexCoords.insert(meshTexCoords.end(), {
-                            0.0f, 0.0f,
-                            1.0f, 0.0f,
-                            1.0f, 1.0f,
-                            0.0f, 1.0f,
-                        });
+                        meshTexCoords.insert(meshTexCoords.end(), sideTexCoords.begin(), sideTexCoords.end());
 
                         meshShadingValues.insert(meshShadingValues.end(), {
                             0.6f, 0.6f, 0.6f, 0.6f,
@@ -144,21 +213,16 @@ void Chunk::GenerateMesh()
                         });
                     }
                     // Back Face
-                    if (IsBlockHidden(x, y, z, 1))
+                    if (IsBlockHidden(x, y, z, 1, water))
                     {
                         meshVertexPositions.insert(meshVertexPositions.end(), {
-                            startX + x, startY + y, startZ + z,
-                            startX + x + 1, startY + y, startZ + z,
-                            startX + x + 1, startY + y + 1, startZ + z,
-                            startX + x, startY + y + 1, startZ + z,
+                            startX + x, startY + y, startZ + z,             // Vertex 0
+                            startX + x + 1, startY + y, startZ + z,         // Vertex 1
+                            startX + x + 1, startY + y + 1, startZ + z,     // Vertex 2
+                            startX + x, startY + y + 1, startZ + z,         // Vertex 3
                         });
 
-                        meshTexCoords.insert(meshTexCoords.end(), {
-                            0.0f, 0.0f,
-                            1.0f, 0.0f,
-                            1.0f, 1.0f,
-                            0.0f, 1.0f,
-                        });
+                        meshTexCoords.insert(meshTexCoords.end(), backTexCoords.begin(), backTexCoords.end());
 
                         meshShadingValues.insert(meshShadingValues.end(), {
                             0.6f, 0.6f, 0.6f, 0.6f,
@@ -168,7 +232,7 @@ void Chunk::GenerateMesh()
                         });
                     }
                     // Right Face
-                    if (IsBlockHidden(x, y, z, 2))
+                    if (IsBlockHidden(x, y, z, 2, water))
                     {
                         meshVertexPositions.insert(meshVertexPositions.end(), {
                             startX + x + 1, startY + y, startZ + z + 1, // Vertex 0
@@ -177,12 +241,7 @@ void Chunk::GenerateMesh()
                             startX + x + 1, startY + y, startZ + z, // Vertex 3
                         });
 
-                        meshTexCoords.insert(meshTexCoords.end(), {
-                            0.0f, 0.0f,
-                            1.0f, 0.0f,
-                            1.0f, 1.0f,
-                            0.0f, 1.0f,
-                        });
+                        meshTexCoords.insert(meshTexCoords.end(), sideTexCoords.begin(), sideTexCoords.end());
 
                         meshShadingValues.insert(meshShadingValues.end(), {
                             0.4f, 0.4f, 0.4f, 0.4f,
@@ -192,7 +251,7 @@ void Chunk::GenerateMesh()
                         });
                     }
                     // Left Face
-                    if (IsBlockHidden(x, y, z, 3))
+                    if (IsBlockHidden(x, y, z, 3, water))
                     {
                         meshVertexPositions.insert(meshVertexPositions.end(), {
                             startX + x, startY + y, startZ + z,
@@ -201,12 +260,7 @@ void Chunk::GenerateMesh()
                             startX + x, startY + y, startZ + z + 1,
                         });
 
-                        meshTexCoords.insert(meshTexCoords.end(), {
-                            0.0f, 0.0f,
-                            1.0f, 0.0f,
-                            1.0f, 1.0f,
-                            0.0f, 1.0f,
-                        });
+                        meshTexCoords.insert(meshTexCoords.end(), sideTexCoords.begin(), sideTexCoords.end());
 
                         meshShadingValues.insert(meshShadingValues.end(), {
                             1.0f, 1.0f, 1.0f, 1.0f,
@@ -216,7 +270,7 @@ void Chunk::GenerateMesh()
                         });
                     }
                     // Top Face
-                    if (IsBlockHidden(x, y, z, 4))
+                    if (IsBlockHidden(x, y, z, 4, water))
                     {
                         meshVertexPositions.insert(meshVertexPositions.end(), {
                             startX + x, startY + y + 1, startZ + z,
@@ -225,12 +279,7 @@ void Chunk::GenerateMesh()
                             startX + x, startY + y + 1, startZ + z + 1,
                         });
 
-                        meshTexCoords.insert(meshTexCoords.end(), {
-                            0.0f, 0.0f,
-                            1.0f, 0.0f,
-                            1.0f, 1.0f,
-                            0.0f, 1.0f,
-                        });
+                        meshTexCoords.insert(meshTexCoords.end(), topTexCoords.begin(), topTexCoords.end());
 
                         meshShadingValues.insert(meshShadingValues.end(), {        
                             0.8f, 0.8f, 0.8f, 0.8f,
@@ -240,7 +289,7 @@ void Chunk::GenerateMesh()
                         });
                     }
                     // Bottom Face
-                    if (IsBlockHidden(x, y, z, 5))
+                    if (IsBlockHidden(x, y, z, 5, water))
                     {
                         meshVertexPositions.insert(meshVertexPositions.end(), {
                             startX + x, startY + y, startZ + z, // Vertex 0
@@ -249,12 +298,7 @@ void Chunk::GenerateMesh()
                             startX + x + 1, startY + y, startZ + z, // Vertex 3
                         });
 
-                        meshTexCoords.insert(meshTexCoords.end(), {
-                            0.0f, 0.0f,
-                            1.0f, 0.0f,
-                            1.0f, 1.0f,
-                            0.0f, 1.0f
-                        });
+                        meshTexCoords.insert(meshTexCoords.end(), topTexCoords.begin(), topTexCoords.end());
 
                         meshShadingValues.insert(meshShadingValues.end(), {
                             0.8f, 0.8f, 0.8f, 0.8f,
