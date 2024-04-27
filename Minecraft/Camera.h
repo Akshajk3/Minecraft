@@ -9,6 +9,7 @@
 #include <glm/gtx/vector_angle.hpp>
 
 #include "Shader.h"
+#include "AABB.h"
 
 class Camera
 {
@@ -37,4 +38,7 @@ public:
 	void CaptureMouse(GLFWwindow* window);
 	void ReleaseMouse(GLFWwindow* window);
 	void UpdateDeltaTime(float deltaTime);
+	void UpdateAABB();
+
+	AABB aabb;
 };

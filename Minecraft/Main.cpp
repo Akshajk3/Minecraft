@@ -89,8 +89,6 @@ int main()
 
     camera.Position = glm::vec3(world.GetSize() / 2 * CHUNK_WIDTH, StartingPos.y, world.GetSize() / 2 * CHUNK_LENGTH);
     
-    BlockType block(glm::vec3(0, 0, 0));
-    
     glfwSetWindowSize(window, width + 1, height + 1);
     glfwSetWindowSize(window, width, height);
 
@@ -115,7 +113,7 @@ int main()
         shaderProgram.Activate();
 
         camera.Inputs(window);
-        camera.CamMatrix(45.0f, 0.1f, 60.0f, shaderProgram);
+        camera.CamMatrix(45.0f, 0.1f, 65.0f, shaderProgram);
         camera.PosMatrix(shaderProgram);
 
         //grassTex.Bind();

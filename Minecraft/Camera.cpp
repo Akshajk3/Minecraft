@@ -132,3 +132,13 @@ void Camera::UpdateDeltaTime(float DeltaTime)
 {
     deltaTime = DeltaTime;
 }
+
+void Camera::UpdateAABB()
+{
+    float playerWidth = 0.5f;
+    float playerHeight = 1.8f;
+    float playerDepth = 0.5f;
+
+    aabb.min = Position - glm::vec3(playerWidth, playerHeight, playerDepth);
+    aabb.max = Position + glm::vec3(playerWidth, playerHeight, playerDepth);
+}

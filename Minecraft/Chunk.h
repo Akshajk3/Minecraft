@@ -12,6 +12,7 @@
 #include "Block.h"
 #include "Numbers.h"
 #include "SimplexNoise.h"
+#include "AABB.h"
 
 #define CHUNK_WIDTH 8
 #define CHUNK_HEIGHT 256
@@ -27,6 +28,7 @@ public:
 
     void DeleteChunk();
     void DrawChunk();
+    bool CheckCollision(const AABB& aabb);
     
     bool IsBlockHidden(int x, int y, int z, int face, bool water) const;
     

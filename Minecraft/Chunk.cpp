@@ -45,7 +45,7 @@ void Chunk::GenerateChunkSection(Chunk& chunk, int startY, int endY, SimplexNois
                 float worldX = chunk.position.x * CHUNK_WIDTH + x;
                 float worldZ = chunk.position.y * CHUNK_WIDTH + z;
                 float noiseVal = noise.fractal(4, worldX * 0.01, worldZ * 0.01);
-                int height = static_cast<int>((noiseVal + 1.0) * 32/ 2);
+                int height = static_cast<int>((noiseVal + 1.0) * 32 / 2);
                 if (y < height)
                     chunk.blocks[index] = 1; // or any solid block
                 else if (y < waterLevel)
@@ -57,6 +57,19 @@ void Chunk::GenerateChunkSection(Chunk& chunk, int startY, int endY, SimplexNois
     }
 }
 
+bool Chunk::CheckCollision(const AABB& aabb)
+{
+    for (int x = 0; x < CHUNK_WIDTH; x++)
+    {
+        for (int y = 0; y < CHUNK_HEIGHT; y++)
+        {
+            for (int z = 0; z < CHUNK_LENGTH; z++)
+            {
+                int index = x + CHUNK_WIDTH * (y * CHUNK_HEIGHT * z);
+            }
+        }
+    }
+}
 
 Chunk::~Chunk()
 {
