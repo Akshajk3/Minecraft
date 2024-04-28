@@ -46,26 +46,13 @@ void Chunk::GenerateChunkSection(Chunk& chunk, int startY, int endY, SimplexNois
                 float worldZ = chunk.position.y * CHUNK_WIDTH + z;
                 float noiseVal = noise.fractal(4, worldX * 0.01, worldZ * 0.01);
                 int height = static_cast<int>((noiseVal + 1.0) * 32 / 2);
+
                 if (y < height)
                     chunk.blocks[index] = 1; // or any solid block
                 else if (y < waterLevel)
                     chunk.blocks[index] = 2; // water
                 else
                     chunk.blocks[index] = 0; // air
-            }
-        }
-    }
-}
-
-bool Chunk::CheckCollision(const AABB& aabb)
-{
-    for (int x = 0; x < CHUNK_WIDTH; x++)
-    {
-        for (int y = 0; y < CHUNK_HEIGHT; y++)
-        {
-            for (int z = 0; z < CHUNK_LENGTH; z++)
-            {
-                int index = x + CHUNK_WIDTH * (y * CHUNK_HEIGHT * z);
             }
         }
     }
@@ -172,30 +159,31 @@ void Chunk::GenerateMesh()
                     {
                     case 1:
                         sideTexCoords = {
+                            0.25f, 0.0f,
+                            0.25f, 0.5f,
+                            0.5f, 0.5f,
+                            0.5f, 0.0f 
+                        };
+                        
+                        backTexCoords = {
+                            0.25f, 0.0f,
                             0.5f, 0.0f,
                             0.5f, 0.5f,
-                            1.0f, 0.5f,
-                            1.0f, 0.0f 
-                        };
-                        backTexCoords = {
-                            0.5f, 0.0f,
-                            1.0f, 0.0f,
-                            1.0f, 0.5f,
-                            0.5f, 0.5f
+                            0.25f, 0.5f
                         };
                         topTexCoords = {
                             0.0f, 0.0f,
                             0.0f, 0.5f,
-                            0.5f, 0.5f,
-                            0.5f, 0.0f 
+                            0.25f, 0.5f,
+                            0.25f, 0.0f 
                         };
                         break;
                     case 2:
                         sideTexCoords = {
+                            0.25f, 0.5f,
                             0.5f, 0.5f,
-                            1.0f, 0.5f,
-                            1.0f, 1.0f,
-                            0.5f, 1.0f 
+                            0.5f, 1.0f,
+                            0.25f, 1.0f 
                         };
                         backTexCoords = sideTexCoords;
                         topTexCoords = sideTexCoords;

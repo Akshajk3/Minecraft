@@ -9,10 +9,12 @@
 #include <functional>
 #include <chrono>
 
-#include "Block.h"
 #include "Numbers.h"
 #include "SimplexNoise.h"
-#include "AABB.h"
+#include "VAO.h"
+#include "VBO.h"
+#include "EBO.h"
+#include "Tree.h"
 
 #define CHUNK_WIDTH 8
 #define CHUNK_HEIGHT 256
@@ -28,7 +30,6 @@ public:
 
     void DeleteChunk();
     void DrawChunk();
-    bool CheckCollision(const AABB& aabb);
     
     bool IsBlockHidden(int x, int y, int z, int face, bool water) const;
     
@@ -45,14 +46,9 @@ private:
     std::vector<std::thread> threads;
     std::atomic<bool> generationComplete;
     std::mutex generationMutex;
-
-    Texture dirtTex = Texture("textures/dirt.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
-    Texture stoneTex = Texture("textures/cobblestone.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
-    Texture grassTex = Texture("textures/grass.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
     
     VAO vao;
 
     void GenerateMesh();
-    void AddFace();
     void GenerateChunkSection(Chunk& chunk, int startY, int endY, SimplexNoise& noise, int waterLevel);
 };

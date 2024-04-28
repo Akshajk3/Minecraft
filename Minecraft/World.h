@@ -4,6 +4,7 @@
 
 #include "Chunk.h"
 #include "SimplexNoise.h"
+#include "Texture.h"
 
 class World
 {

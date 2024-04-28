@@ -1,2 +1,2 @@
 all:
-	g++ -o main -Ofast -std=c++11 -I Dependencies -I Dependencies/glad/include Main.cpp glad.c Camera.cpp Chunk.cpp EBO.cpp Shader.cpp stb.cpp Texture.cpp VAO.cpp VBO.cpp World.cpp Block.cpp SimplexNoise.cpp -LDependencies/GLFW/lib-vc2022 -lglfw3 -march=native -flto -funroll-loops -fno-stack-protector
+	g++ -o main -Ofast -std=c++11 -I Dependencies -I Dependencies/glad/include Main.cpp glad.c Camera.cpp Chunk.cpp EBO.cpp Shader.cpp stb.cpp Texture.cpp VAO.cpp VBO.cpp World.cpp SimplexNoise.cpp Tree.cpp -LDependencies/GLFW/lib-vc2022 -lglfw3 -march=native -flto -funroll-loops -fno-stack-protector
