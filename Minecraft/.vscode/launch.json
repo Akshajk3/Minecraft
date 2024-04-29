@@ -5,12 +5,20 @@
       "name": "C/C++ Runner: Debug Session (Windows)",
       "type": "cppvsdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/Debug/outDebug.exe", // Adjust the path to your executable
+      "program": "${workspaceFolder}/build/Debug/outDebug.exe",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
       "externalConsole": false
     },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/akshajkanumuri/Documents/Minecraft/Minecraft",
+      "program": "/Users/akshajkanumuri/Documents/Minecraft/Minecraft/build/Debug/outDebug"
+    }
   ]
 }

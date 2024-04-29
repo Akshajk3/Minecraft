@@ -10,8 +10,8 @@
 #include "World.h"
 #include "Tree.h"
 
-const unsigned int width = 1920;
-const unsigned int height = 1080;
+const unsigned int width = 1280;
+const unsigned int height = 720;
 glm::vec3 SkyColor(0.007f, 0.8f, 0.996f);
 glm::vec3 StartingPos(0.0f, 20.0f, 0.0f);
 
@@ -89,8 +89,6 @@ int main()
     World world(16, 512);
 
     camera.Position = glm::vec3(world.GetSize() / 2 * CHUNK_WIDTH, StartingPos.y, world.GetSize() / 2 * CHUNK_LENGTH);
-
-    Tree tree(camera.Position);
     
     glfwSetWindowSize(window, width + 1, height + 1);
     glfwSetWindowSize(window, width, height);
@@ -123,8 +121,6 @@ int main()
 
         world.ManageChunks(glm::vec2(camera.Position.x, camera.Position.z));
         world.DrawChunks();
-
-        tree.Render();
         
         //block.Draw();
 

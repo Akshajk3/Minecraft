@@ -46,6 +46,11 @@ private:
     std::vector<std::thread> threads;
     std::atomic<bool> generationComplete;
     std::mutex generationMutex;
+
+    std::mutex treeMutex;
+    std::vector<Tree> trees;
+
+    SimplexNoise noise;
     
     VAO vao;
 

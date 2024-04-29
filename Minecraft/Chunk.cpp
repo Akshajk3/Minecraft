@@ -1,7 +1,7 @@
 #include "Chunk.h"
 
-Chunk::Chunk(glm::vec2 pos, SimplexNoise& noise, int waterLevel)
-    : position(pos)
+Chunk::Chunk(glm::vec2 pos, SimplexNoise& Snoise, int waterLevel)
+    : position(pos), noise(Snoise)
 {
     int numThreads = std::thread::hardware_concurrency();
     int sectionHeight = CHUNK_HEIGHT / numThreads;
@@ -12,7 +12,7 @@ Chunk::Chunk(glm::vec2 pos, SimplexNoise& noise, int waterLevel)
         int startY = i * sectionHeight;
         int endY = (i == numThreads - 1) ? CHUNK_HEIGHT : startY + sectionHeight;
 
-        threads.emplace_back([this, startY, endY, &noise, waterLevel]() {
+        threads.emplace_back([this, startY, endY, &Snoise, waterLevel]() {
             auto threadStart = std::chrono::high_resolution_clock::now(); // Start thread timing
             GenerateChunkSection(*this, startY, endY, noise, waterLevel); // Pass the chunk object
             auto threadEnd = std::chrono::high_resolution_clock::now(); // End thread timing
@@ -65,12 +65,17 @@ Chunk::~Chunk()
     meshTexCoords.clear();
     meshShadingValues.clear();
     meshIndices.clear();
+    trees.clear();
 }
 
 void Chunk::DrawChunk()
 {
     vao.Bind();
     glDrawElements(GL_TRIANGLES, meshIndices.size(), GL_UNSIGNED_INT, 0);
+    for (auto& tree : trees)
+    {
+        tree.Render();
+    }
 }
 
 bool Chunk::IsBlockHidden(int x, int y, int z, int face, bool water) const
@@ -127,6 +132,7 @@ void Chunk::DeleteChunk()
     meshTexCoords.clear();
     meshShadingValues.clear();
     meshIndices.clear();
+    trees.clear();
 }
 
 void Chunk::GenerateMesh()
@@ -140,13 +146,21 @@ void Chunk::GenerateMesh()
         for (int y = 0; y < CHUNK_HEIGHT; y++) {
             for (int z = 0; z < CHUNK_LENGTH; z++) {
                 int index = x + CHUNK_WIDTH * (y + CHUNK_HEIGHT * z);
-                    float worldX = position.x * CHUNK_WIDTH + x;
-                    float worldZ = position.y * CHUNK_WIDTH + z;
+                float worldX = position.x * CHUNK_WIDTH + x;
+                float worldZ = position.y * CHUNK_WIDTH + z;
 
-                    // Generate mesh data for each block
-                    float startX = position.x * CHUNK_WIDTH;
-                    float startY = 0.0;
-                    float startZ = position.y * CHUNK_LENGTH;
+                // Generate mesh data for each block
+                float startX = position.x * CHUNK_WIDTH;
+                float startY = 0.0;
+                float startZ = position.y * CHUNK_LENGTH;
+
+                float noiseVal = noise.fractal(4, worldX * 0.01, worldZ * 0.01);
+                int height = static_cast<int>((noiseVal + 1.0) * 32 / 2);
+                
+                if (x == 0 && y == height && z == 0 && blocks[index] == 0)
+                {
+                    trees.push_back(Tree(glm::vec3(startX, y, startZ)));
+                }
                 
                 if (blocks[index] != 0)
                 {

@@ -13,7 +13,9 @@ class Tree
 public:
     Tree(glm::vec3 spawnPos);
 
-    void GenerateMesh();
+    void GenerateTrunk();
+    void GenerateLeaves();
+    void GenerateBuffers();
     void Render();
 
 private:
@@ -23,6 +25,8 @@ private:
     std::vector<GLuint> treeIndices;
 
     int blocks[64];
+
+    int height = 4;
 
     glm::vec3 position;
 
