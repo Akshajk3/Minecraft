@@ -107,6 +107,7 @@
     "unordered_map": "cpp",
     "variant": "cpp",
     "algorithm": "cpp",
-    "charconv": "cpp"
+    "charconv": "cpp",
+    "thread": "cpp"
   }
 }

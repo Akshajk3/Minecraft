@@ -10,8 +10,8 @@
 #include "World.h"
 #include "Tree.h"
 
-const unsigned int width = 1280;
-const unsigned int height = 720;
+const unsigned int width = 1920;
+const unsigned int height = 1080;
 glm::vec3 SkyColor(0.007f, 0.8f, 0.996f);
 glm::vec3 StartingPos(0.0f, 20.0f, 0.0f);
 
@@ -86,7 +86,7 @@ int main()
 
     glEnable(GL_DEPTH_TEST);
 
-    World world(8, 512);
+    World world(16, 512);
 
     camera.Position = glm::vec3(world.GetSize() / 2 * CHUNK_WIDTH, StartingPos.y, world.GetSize() / 2 * CHUNK_LENGTH);
 
@@ -116,7 +116,7 @@ int main()
         shaderProgram.Activate();
 
         camera.Inputs(window);
-        camera.CamMatrix(45.0f, 0.1f, 65.0f, shaderProgram);
+        camera.CamMatrix(45.0f, 0.1f, 100.0f, shaderProgram);
         camera.PosMatrix(shaderProgram);
 
         //grassTex.Bind();
