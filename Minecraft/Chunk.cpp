@@ -156,8 +156,11 @@ void Chunk::GenerateMesh()
 
                 float noiseVal = noise.fractal(4, worldX * 0.01, worldZ * 0.01);
                 int height = static_cast<int>((noiseVal + 1.0) * 32 / 2);
+
+                float RandomX = (float)(rand() % 8) / 4.0f - 0.5f;
+                float RandomZ = (float)(rand() % 8) / 4.0f - 0.5f;
                 
-                if (x == 0 && y == height && z == 0 && blocks[index] == 0)
+                if (x == RandomX && y == height && z == RandomZ && blocks[index] == 0)
                 {
                     trees.push_back(Tree(glm::vec3(startX, y, startZ)));
                 }
@@ -178,7 +181,6 @@ void Chunk::GenerateMesh()
                             0.5f, 0.5f,
                             0.5f, 0.0f 
                         };
-                        
                         backTexCoords = {
                             0.25f, 0.0f,
                             0.5f, 0.0f,

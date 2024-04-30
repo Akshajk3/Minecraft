@@ -86,7 +86,7 @@ int main()
 
     glEnable(GL_DEPTH_TEST);
 
-    World world(16, 512);
+    World world(8, 512);
 
     camera.Position = glm::vec3(world.GetSize() / 2 * CHUNK_WIDTH, StartingPos.y, world.GetSize() / 2 * CHUNK_LENGTH);
     
@@ -114,7 +114,7 @@ int main()
         shaderProgram.Activate();
 
         camera.Inputs(window);
-        camera.CamMatrix(45.0f, 0.1f, 100.0f, shaderProgram);
+        camera.CamMatrix(45.0f, 0.1f, 60.0f, shaderProgram);
         camera.PosMatrix(shaderProgram);
 
         //grassTex.Bind();
