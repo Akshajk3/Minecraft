@@ -177,29 +177,29 @@ void Chunk::GenerateMesh()
                     case 1:
                         sideTexCoords = {
                             0.25f, 0.0f,
-                            0.25f, 0.5f,
-                            0.5f, 0.5f,
+                            0.25f, 0.25f,
+                            0.5f, 0.25f,
                             0.5f, 0.0f 
                         };
                         backTexCoords = {
                             0.25f, 0.0f,
                             0.5f, 0.0f,
-                            0.5f, 0.5f,
-                            0.25f, 0.5f
+                            0.5f, 0.25f,
+                            0.25f, 0.25f
                         };
                         topTexCoords = {
                             0.0f, 0.0f,
-                            0.0f, 0.5f,
-                            0.25f, 0.5f,
+                            0.0f, 0.25f,
+                            0.25f, 0.25f,
                             0.25f, 0.0f 
                         };
                         break;
                     case 2:
                         sideTexCoords = {
-                            0.25f, 0.5f,
+                            0.25f, 0.25f,
+                            0.5f, 0.25f,
                             0.5f, 0.5f,
-                            0.5f, 1.0f,
-                            0.25f, 1.0f 
+                            0.25f, 0.5f 
                         };
                         backTexCoords = sideTexCoords;
                         topTexCoords = sideTexCoords;

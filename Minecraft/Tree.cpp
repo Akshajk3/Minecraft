@@ -13,21 +13,21 @@ void Tree::GenerateTrunk()
 
     std::vector<GLfloat> sideTexCoords = {
         0.75f, 0.0f,
-        0.75f, 0.5f,
-        1.0f, 0.5f,
+        0.75f, 0.25f,
+        1.0f, 0.25f,
         1.0f, 0.0f 
     };
     
     std::vector<GLfloat> backTexCoords = {
         0.75f, 0.0f,
         1.0f, 0.0f,
-        1.0f, 0.5f,
-        0.75f, 0.5f
+        1.0f, 0.25f,
+        0.75f, 0.25f
     };
     std::vector<GLfloat> topTexCoords = {
         0.5f, 0.0f,
-        0.5f, 0.5f,
-        0.75f, 0.5f,
+        0.5f, 0.25f,
+        0.75f, 0.25f,
         0.75f, 0.0f 
     };
 
@@ -171,22 +171,22 @@ void Tree::GenerateTrunk()
 void Tree::GenerateLeaves()
 {
     std::vector<GLfloat> sideTexCoords = {
-        0.5f, 0.5f,
-        0.5f, 1.0f,
-        0.75f, 1.0f,
-        0.75f, 0.5f
-    };
-    std::vector<GLfloat> backTexCoords = {
+        0.5f, 0.25f,
         0.5f, 0.5f,
         0.75f, 0.5f,
-        0.75f, 1.0f,
-        0.5f, 1.0f
+        0.75f, 0.25f
+    };
+    std::vector<GLfloat> backTexCoords = {
+        0.5f, 0.25f,
+        0.75f, 0.25f,
+        0.75f, 0.5f,
+        0.5f, 0.5f
     };
     std::vector<GLfloat> topTexCoords = {
+        0.5f, 0.25f,
         0.5f, 0.5f,
-        0.5f, 1.0f,
-        0.75f, 1.0f,
-        0.75f, 0.5f
+        0.75f, 0.5f,
+        0.75f, 0.25f
     };
 
     for (int x = -2; x <= 2; x++)
