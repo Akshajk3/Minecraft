@@ -10,8 +10,8 @@
 #include "World.h"
 #include "Tree.h"
 
-const unsigned int width = 1280;
-const unsigned int height = 720;
+const unsigned int width = 1920;
+const unsigned int height = 1080;
 glm::vec3 SkyColor(0.007f, 0.8f, 0.996f);
 glm::vec3 StartingPos(0.0f, 20.0f, 0.0f);
 
