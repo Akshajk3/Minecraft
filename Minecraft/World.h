@@ -5,6 +5,7 @@
 #include "Chunk.h"
 #include "SimplexNoise.h"
 #include "Texture.h"
+#include "Raycast.h"
 
 class World
 {
@@ -15,6 +16,7 @@ public:
 	void DrawChunks();
 	void DeleteChunks();
 	void ManageChunks(glm::vec2 PlayerPosition);
+	void CheckChunkCollision(glm::vec3 position, glm::vec3 dir);
 	void UnloadChunk(int x, int y);
 	void LoadChunk(int x, int y, int px, int py);
 

@@ -29,6 +29,7 @@ public:
     ~Chunk();
 
     void DeleteChunk();
+    void BreakBlock(glm::vec3 blockPosition);
     void DrawChunk();
     
     bool IsBlockHidden(int x, int y, int z, int face, bool water) const;

@@ -46,6 +46,21 @@ void World::ManageChunks(glm::vec2 PlayerPosition)
     }
 }
 
+void World::CheckChunkCollision(glm::vec3 position, glm::vec3 dir)
+{
+    int chunkX = position.x / CHUNK_WIDTH;
+    int chunkZ = position.z / CHUNK_LENGTH;
+
+    Chunk& currentChunk = *chunks[chunkX][chunkZ];
+
+    RaycastResult hitBlock = Raycast(position, dir, 3, currentChunk);
+
+    if (hitBlock.hit == true)
+    {
+        currentChunk.BreakBlock(hitBlock.blockPos);
+    }
+}
+
 void World::UnloadChunk(int x, int y)
 {
     delete chunks[x][y];

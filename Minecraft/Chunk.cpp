@@ -78,6 +78,16 @@ void Chunk::DrawChunk()
     }
 }
 
+void Chunk::BreakBlock(glm::vec3 blockPosition)
+{
+    int index = blockPosition.x + CHUNK_WIDTH * (blockPosition.y + CHUNK_HEIGHT * blockPosition.z);
+    if (blocks[index] != 0)
+    {
+        blocks[index] = 0;
+        GenerateMesh();
+    }
+}
+
 bool Chunk::IsBlockHidden(int x, int y, int z, int face, bool water) const
 {
     // Calculate the index of the current block
