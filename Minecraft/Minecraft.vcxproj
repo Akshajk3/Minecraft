@@ -133,36 +133,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Block.cpp" />
-    <ClCompile Include="Camera.cpp" />
-    <ClCompile Include="Chunk.cpp" />
-    <ClCompile Include="EBO.cpp" />
-    <ClCompile Include="glad.c" />
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Models.cpp" />
-    <ClCompile Include="Shader.cpp" />
-    <ClCompile Include="SimplexNoise.cpp" />
-    <ClCompile Include="stb.cpp" />
-    <ClCompile Include="Texture.cpp" />
-    <ClCompile Include="VAO.cpp" />
-    <ClCompile Include="VBO.cpp" />
-    <ClCompile Include="World.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Block.h" />
-    <ClInclude Include="Camera.h" />
-    <ClInclude Include="Chunk.h" />
-    <ClInclude Include="EBO.h" />
-    <ClInclude Include="Models.h" />
-    <ClInclude Include="Numbers.h" />
-    <ClInclude Include="Shader.h" />
-    <ClInclude Include="SimplexNoise.h" />
-    <ClInclude Include="Texture.h" />
-    <ClInclude Include="VAO.h" />
-    <ClInclude Include="VBO.h" />
-    <ClInclude Include="World.h" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="frag.glsl" />
     <None Include="vert.glsl" />
   </ItemGroup>
@@ -262,6 +232,37 @@
     <Image Include="textures\wooden_door.png" />
     <Image Include="textures\yellow_cloth.png" />
     <Image Include="textures\yellow_flower.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Chunk.cpp" />
+    <ClCompile Include="EBO.cpp" />
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Raycast.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="SimplexNoise.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="VAO.cpp" />
+    <ClCompile Include="VBO.cpp" />
+    <ClCompile Include="World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AABB.h" />
+    <ClInclude Include="BlockTypes.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Chunk.h" />
+    <ClInclude Include="EBO.h" />
+    <ClInclude Include="Numbers.h" />
+    <ClInclude Include="Raycast.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="SimplexNoise.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Tree.h" />
+    <ClInclude Include="VAO.h" />
+    <ClInclude Include="VBO.h" />
+    <ClInclude Include="World.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
