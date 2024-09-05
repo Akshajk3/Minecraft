@@ -25,7 +25,7 @@ A Minecraft clone made in C++ using GLFW and GLAD. The project currently include
 2. Build and run the project:
    ```bash
    make
-   ./Minecraft
+   ./main
    ```
 
 ## Dependencies
