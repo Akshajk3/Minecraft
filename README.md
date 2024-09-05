@@ -10,6 +10,7 @@ A Minecraft clone made in C++ using GLFW and GLAD. The project currently include
 
 ### Windows:
 1. Clone the repository:
+   ```bash
    git clone https://github.com/Akshajk3/Minecraft.git
    ```
 2. Open the project in **Visual Studio 2022**.
@@ -17,10 +18,12 @@ A Minecraft clone made in C++ using GLFW and GLAD. The project currently include
 
 ### Mac:
 1. Clone the repository:
+   ```bash
    git clone https://github.com/Akshajk3/Minecraft.git
    cd Minecraft
    ```
 2. Build and run the project:
+   ```bash
    make
    ./Minecraft
    ```
@@ -29,7 +32,7 @@ A Minecraft clone made in C++ using GLFW and GLAD. The project currently include
 - **GLFW** (Window and input management)
 - **GLAD** (OpenGL loader)
 - **Make** (for build configurations)
-- **g++** (for C++ Compilation)
+- **G++** (for C++ Compilation)
 
 Ensure these libraries are installed on your system before building.
 
@@ -38,3 +41,5 @@ Ensure these libraries are installed on your system before building.
 - Player movement and physics
 - Expandable world size
 - Additional terrain features (hills, caves, etc.)
+
+---
