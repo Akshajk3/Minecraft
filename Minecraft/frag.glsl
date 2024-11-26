@@ -16,7 +16,7 @@ void main()
 
     // If the alpha value is less than a certain threshold, discard the fragment
     if (texColor.a < 0.1) { // Adjust the threshold as needed
-        //discard;
+        discard;
     }
 
     // Blend texture color with fog color based on fog factor

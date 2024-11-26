@@ -40,5 +40,5 @@ public:
 	void UpdateDeltaTime(float deltaTime);
 	void UpdateAABB();
 
-	AABB aabb;
+	//AABB aabb;
 };

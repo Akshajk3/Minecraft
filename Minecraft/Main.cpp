@@ -8,7 +8,7 @@
 #include "Texture.h"
 #include "Camera.h"
 #include "World.h"
-#include "Tree.h"
+#include "Player.h"
 
 const unsigned int width = 1280;
 const unsigned int height = 720;
@@ -16,6 +16,7 @@ glm::vec3 SkyColor(0.007f, 0.8f, 0.996f);
 glm::vec3 StartingPos(0.0f, 20.0f, 0.0f);
 
 Camera camera(width, height, StartingPos);
+Player player(&camera);
 
 void errorCallback(int error, const char* description) {
     std::cerr << "GLFW Error " << error << ": " << description << std::endl;
@@ -28,14 +29,7 @@ void resizeWindowCallback(GLFWwindow* window, int newWidth, int newHeight)
 
 void windowFocusCallback(GLFWwindow* window, int focused)
 {
-    if (focused)
-    {
-        camera.CaptureMouse(window);
-    }
-    else
-    {
-        camera.ReleaseMouse(window);
-    }
+    player.SetCameraFocus(focused, window);
 }
 
 int main()
@@ -122,7 +116,7 @@ int main()
         world.ManageChunks(glm::vec2(camera.Position.x, camera.Position.z));
         world.DrawChunks();
         
-        world.CheckChunkCollision(camera.Position, camera.Orientation);
+        //world.CheckChunkCollision(camera.Position, camera.Orientation);
 
         //block.Draw();
 

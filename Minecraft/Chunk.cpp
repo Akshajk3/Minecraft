@@ -220,13 +220,15 @@ void Chunk::GenerateMesh()
                         break;
                     }
 
+                    float adjustedY = blocks[index] == 2 ? (startY + y + 0.9f) : (startY + y + 1.0f);
                     // Front Face
                     if (IsBlockHidden(x, y, z, 0, water))
                     {
+                        
                         meshVertexPositions.insert(meshVertexPositions.end(), {
                             startX + x, startY + y, startZ + z + 1,
-                            startX + x, startY + y + 1, startZ + z + 1,
-                            startX + x + 1, startY + y + 1, startZ + z + 1,
+                            startX + x, adjustedY, startZ + z + 1,
+                            startX + x + 1, adjustedY, startZ + z + 1,
                             startX + x + 1, startY + y, startZ + z + 1,
                         });
 
@@ -245,8 +247,8 @@ void Chunk::GenerateMesh()
                         meshVertexPositions.insert(meshVertexPositions.end(), {
                             startX + x, startY + y, startZ + z,             // Vertex 0
                             startX + x + 1, startY + y, startZ + z,         // Vertex 1
-                            startX + x + 1, startY + y + 1, startZ + z,     // Vertex 2
-                            startX + x, startY + y + 1, startZ + z,         // Vertex 3
+                            startX + x + 1, adjustedY, startZ + z,     // Vertex 2
+                            startX + x, adjustedY, startZ + z,         // Vertex 3
                         });
 
                         meshTexCoords.insert(meshTexCoords.end(), backTexCoords.begin(), backTexCoords.end());
@@ -263,8 +265,8 @@ void Chunk::GenerateMesh()
                     {
                         meshVertexPositions.insert(meshVertexPositions.end(), {
                             startX + x + 1, startY + y, startZ + z + 1, // Vertex 0
-                            startX + x + 1, startY + y + 1, startZ + z + 1, // Vertex 1
-                            startX + x + 1, startY + y + 1, startZ + z, // Vertex 2
+                            startX + x + 1, adjustedY, startZ + z + 1, // Vertex 1
+                            startX + x + 1, adjustedY, startZ + z, // Vertex 2
                             startX + x + 1, startY + y, startZ + z, // Vertex 3
                         });
 
@@ -282,8 +284,8 @@ void Chunk::GenerateMesh()
                     {
                         meshVertexPositions.insert(meshVertexPositions.end(), {
                             startX + x, startY + y, startZ + z,
-                            startX + x, startY + y + 1, startZ + z,
-                            startX + x, startY + y + 1, startZ + z + 1,
+                            startX + x, adjustedY, startZ + z,
+                            startX + x, adjustedY, startZ + z + 1,
                             startX + x, startY + y, startZ + z + 1,
                         });
 
@@ -300,10 +302,10 @@ void Chunk::GenerateMesh()
                     if (IsBlockHidden(x, y, z, 4, water))
                     {
                         meshVertexPositions.insert(meshVertexPositions.end(), {
-                            startX + x, startY + y + 1, startZ + z,
-                            startX + x + 1, startY + y + 1, startZ + z,
-                            startX + x + 1, startY + y + 1, startZ + z + 1,
-                            startX + x, startY + y + 1, startZ + z + 1,
+                            startX + x, adjustedY, startZ + z,
+                            startX + x + 1, adjustedY, startZ + z,
+                            startX + x + 1, adjustedY, startZ + z + 1,
+                            startX + x, adjustedY, startZ + z + 1,
                         });
 
                         meshTexCoords.insert(meshTexCoords.end(), topTexCoords.begin(), topTexCoords.end());
@@ -318,12 +320,17 @@ void Chunk::GenerateMesh()
                     // Bottom Face
                     if (IsBlockHidden(x, y, z, 5, water))
                     {
-                        meshVertexPositions.insert(meshVertexPositions.end(), {
-                            startX + x, startY + y, startZ + z, // Vertex 0
-                            startX + x, startY + y, startZ + z + 1, // Vertex 1
-                            startX + x + 1, startY + y, startZ + z + 1, // Vertex 2
-                            startX + x + 1, startY + y, startZ + z, // Vertex 3
-                        });
+                        float adjustedBottom = y - 0.1f;
+
+                        // Bottom Face
+                        if (IsBlockHidden(x, y, z, 5, true)) { // Check visibility of the bottom face
+                            meshVertexPositions.insert(meshVertexPositions.end(), {
+                                startX + x, adjustedBottom, startZ + z,
+                                startX + x + 1, adjustedBottom, startZ + z,
+                                startX + x + 1, adjustedBottom, startZ + z + 1,
+                                startX + x, adjustedBottom, startZ + z + 1,
+                            });
+                        }
 
                         meshTexCoords.insert(meshTexCoords.end(), topTexCoords.begin(), topTexCoords.end());
 

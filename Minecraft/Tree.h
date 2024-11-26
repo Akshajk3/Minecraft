@@ -3,6 +3,9 @@
 #include <glm/glm.hpp>
 #include <glad/glad.h>
 #include <vector>
+#include <random>
+#include <ctime>
+#include <cstdlib>
 
 #include "VAO.h"
 #include "VBO.h"
@@ -23,6 +26,8 @@ private:
     std::vector<GLfloat> treeTexCoords;
     std::vector<GLfloat> treeShading;
     std::vector<GLuint> treeIndices;
+
+    int generateRandomSeed();
 
     int blocks[64];
 
