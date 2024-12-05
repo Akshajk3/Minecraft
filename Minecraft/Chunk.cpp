@@ -78,16 +78,6 @@ void Chunk::DrawChunk()
     }
 }
 
-void Chunk::BreakBlock(glm::vec3 blockPosition)
-{
-    int index = blockPosition.x + CHUNK_WIDTH * (blockPosition.y + CHUNK_HEIGHT * blockPosition.z);
-    if (blocks[index] != 0)
-    {
-        blocks[index] = 0;
-        GenerateMesh();
-    }
-}
-
 bool Chunk::IsBlockHidden(int x, int y, int z, int face, bool water) const
 {
     // Calculate the index of the current block
@@ -143,6 +133,42 @@ void Chunk::DeleteChunk()
     meshShadingValues.clear();
     meshIndices.clear();
     trees.clear();
+}
+
+void Chunk::GenerateCollision()
+{
+    colliders.clear();
+
+    glm::vec3 chunkBasePos = glm::vec3(position.x, 1, position.y) * glm::vec3(CHUNK_WIDTH, 1, CHUNK_LENGTH);
+
+    // Pre-allocate memory for colliders
+    colliders.reserve(CHUNK_WIDTH * CHUNK_HEIGHT * CHUNK_LENGTH / 4);
+
+    // Iterate over all blocks using a single loop
+    for (int i = 0; i < CHUNK_WIDTH * CHUNK_HEIGHT * CHUNK_LENGTH; ++i)
+    {
+        int x = i % CHUNK_WIDTH;
+        int yz = i / CHUNK_WIDTH;
+        int y = yz % CHUNK_HEIGHT;
+        int z = yz / CHUNK_HEIGHT;
+
+        int index = x + CHUNK_WIDTH * (y + CHUNK_HEIGHT * z);
+
+        if (blocks[index] != 0)
+        {
+            glm::vec3 blockPos = chunkBasePos + glm::vec3(x, y, z);
+            glm::vec3 min = blockPos;
+            glm::vec3 max = blockPos + glm::vec3(1.0f, 1.0f, 1.0f);
+
+            // Store the AABB for non-empty blocks
+            colliders.push_back(AABB{min, max});
+        }
+    }
+}
+
+std::vector<AABB> Chunk::GetColliders()
+{
+    return colliders;
 }
 
 void Chunk::GenerateMesh()

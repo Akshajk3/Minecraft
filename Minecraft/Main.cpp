@@ -107,18 +107,10 @@ int main()
 
         shaderProgram.Activate();
 
-        camera.Inputs(window);
-        camera.CamMatrix(45.0f, 0.1f, 60.0f, shaderProgram);
-        camera.PosMatrix(shaderProgram);
-
-        //grassTex.Bind();
+        player.Update(shaderProgram, window, world.GetWorldCollider());
 
         world.ManageChunks(glm::vec2(camera.Position.x, camera.Position.z));
         world.DrawChunks();
-        
-        //world.CheckChunkCollision(camera.Position, camera.Orientation);
-
-        //block.Draw();
 
         double currentTime = glfwGetTime();
         frame++;

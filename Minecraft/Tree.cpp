@@ -5,7 +5,7 @@ Tree::Tree(glm::vec3 spawnPos)
 {
     std::random_device rd;
     std::mt19937 gen(rd());
-    std::uniform_int_distribution<> distr(3, 6);
+    std::uniform_int_distribution<> distr(4, 6);
 
     height = distr(gen);
 

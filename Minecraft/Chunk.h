@@ -15,6 +15,7 @@
 #include "VBO.h"
 #include "EBO.h"
 #include "Tree.h"
+#include "AABB.h"
 
 #define CHUNK_WIDTH 8
 #define CHUNK_HEIGHT 256
@@ -29,10 +30,12 @@ public:
     ~Chunk();
 
     void DeleteChunk();
-    void BreakBlock(glm::vec3 blockPosition);
     void DrawChunk();
+    void GenerateCollision();
     
     bool IsBlockHidden(int x, int y, int z, int face, bool water) const;
+
+    std::vector<AABB> GetColliders();
     
     glm::vec2 position;
     
@@ -54,6 +57,8 @@ private:
     SimplexNoise noise;
     
     VAO vao;
+
+    std::vector<AABB> colliders;
 
     void GenerateMesh();
     void GenerateChunkSection(Chunk& chunk, int startY, int endY, SimplexNoise& noise, int waterLevel);

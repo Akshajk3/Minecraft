@@ -25,50 +25,8 @@ void Camera::PosMatrix(Shader& shader)
     glUniform3fv(glGetUniformLocation(shader.ID, "cameraPos"), 1, glm::value_ptr(eyePos)); // Pass camera position to the shader
 }
 
-void Camera::Inputs(GLFWwindow* window)
+void Camera::MoveCamera(GLFWwindow* window)
 {
-    if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
-    {
-        Position += speed * Orientation * deltaTime;
-    }
-    if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
-    {
-        Position += speed * -glm::normalize(glm::cross(Orientation, up)) * deltaTime;
-    }
-    if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
-    {
-        Position += speed * -Orientation * deltaTime;
-    }
-    if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
-    {
-        Position += speed * glm::normalize(glm::cross(Orientation, up)) * deltaTime;
-    }
-    if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS)
-    {
-        Position += speed * up * deltaTime;
-    }
-    if (glfwGetKey(window, GLFW_KEY_LEFT_CONTROL) == GLFW_PRESS)
-    {
-        Position += speed * -up * deltaTime;
-    }
-    if (glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS)
-    {
-        speed = 0.4f;
-    }
-    else if (glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_RELEASE)
-    {
-        speed = 0.1f;
-    }
-
-    if (glfwGetKey(window, GLFW_KEY_F) == GLFW_PRESS)
-    {
-        glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
-    }
-    else if (glfwGetKey(window, GLFW_KEY_F) == GLFW_RELEASE)
-    {
-        glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
-    }
-
     if (captured)
     {
         glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_HIDDEN);

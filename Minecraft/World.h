@@ -1,11 +1,12 @@
 #pragma once
 
 #include <vector>
+#include <unordered_set>
 
 #include "Chunk.h"
 #include "SimplexNoise.h"
 #include "Texture.h"
-#include "Raycast.h"
+#include "AABB.h"
 
 class World
 {
@@ -16,11 +17,9 @@ public:
 	void DrawChunks();
 	void DeleteChunks();
 	void ManageChunks(glm::vec2 PlayerPosition);
-	void CheckChunkCollision(glm::vec3 position, glm::vec3 dir);
 	void UnloadChunk(int x, int y);
 	void LoadChunk(int x, int y, int px, int py);
-
-	bool IsChunkLoaded(int x, int y);
+	std::unordered_set<AABB> GetWorldCollider();
 
 	int GetSize();
 
@@ -30,6 +29,8 @@ private:
 	int WorldSize;
 
 	SimplexNoise simplexNoise;
+
+	std::unordered_set<AABB> worldCollision;
 
 	Texture dirtTex = Texture("textures/dirt.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
 	Texture stoneTex = Texture("textures/cobblestone.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);

@@ -46,30 +46,36 @@ void World::ManageChunks(glm::vec2 PlayerPosition)
     }
 }
 
-void World::CheckChunkCollision(glm::vec3 position, glm::vec3 dir)
-{
-    int chunkX = position.x / CHUNK_WIDTH;
-    int chunkZ = position.z / CHUNK_LENGTH;
-
-    Chunk& currentChunk = *chunks[chunkX][chunkZ];
-
-    RaycastResult hitBlock = Raycast(position, dir, 3, currentChunk);
-
-    if (hitBlock.hit == true)
-    {
-        currentChunk.BreakBlock(hitBlock.blockPos);
-    }
-}
-
 void World::UnloadChunk(int x, int y)
 {
+    if (chunks[x][y] != nullptr)
+    {
+        std::vector<AABB> chunkCollider = chunks[x][y]->GetColliders();
+        for (const AABB& collider : chunkCollider)
+        {
+            worldCollision.erase(collider);  // Erase directly from unordered_set
+        }
+    }
+
     delete chunks[x][y];
     chunks[x][y] = nullptr;
 }
 
+#include <unordered_set>
+
 void World::LoadChunk(int x, int y, int chunkX, int chunkY)
 {
-    chunks[x][y] = new Chunk(glm::vec2(chunkX, chunkY), simplexNoise, 10);
+    Chunk* newChunk = new Chunk(glm::vec2(chunkX, chunkY), simplexNoise, 10);
+    newChunk->GenerateCollision();
+
+    std::vector<AABB> colliders = newChunk->GetColliders();
+
+    for (const AABB& collider : colliders)
+    {
+        worldCollision.insert(collider);
+    }
+
+    chunks[x][y] = newChunk;
 }
 
 void World::DrawChunks()
@@ -94,4 +100,9 @@ void World::DrawChunks()
 int World::GetSize()
 {
     return WorldSize;
+}
+
+std::unordered_set<AABB> World::GetWorldCollider()
+{
+    return worldCollision;
 }
