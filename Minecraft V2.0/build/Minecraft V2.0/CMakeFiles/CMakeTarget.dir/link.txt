@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/CMakeTarget.dir/src/Main.cpp.o CMakeFiles/CMakeTarget.dir/src/glad.c.o -o CMakeTarget   -L/opt/homebrew/lib  -Wl,-rpath,/opt/homebrew/lib -lglfw.3.4 -framework OpenGL -framework Cocoa -framework IOKit
