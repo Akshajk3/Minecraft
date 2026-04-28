@@ -1,0 +1,12 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "CMakeTarget.exe (Minecraft V2.0\\CMakeTarget.exe)",
+      "name": "CMakeTarget.exe (Minecraft V2.0\\CMakeTarget.exe)"
+    }
+  ]
+}

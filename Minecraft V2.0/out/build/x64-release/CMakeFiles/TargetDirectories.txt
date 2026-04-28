@@ -1,0 +1,5 @@
+C:/Users/aksha/OneDrive/Documents/GitHub/Minecraft/Minecraft V2.0/out/build/x64-release/CMakeFiles/edit_cache.dir
+C:/Users/aksha/OneDrive/Documents/GitHub/Minecraft/Minecraft V2.0/out/build/x64-release/CMakeFiles/rebuild_cache.dir
+C:/Users/aksha/OneDrive/Documents/GitHub/Minecraft/Minecraft V2.0/out/build/x64-release/Minecraft V2.0/CMakeFiles/CMakeTarget.dir
+C:/Users/aksha/OneDrive/Documents/GitHub/Minecraft/Minecraft V2.0/out/build/x64-release/Minecraft V2.0/CMakeFiles/edit_cache.dir
+C:/Users/aksha/OneDrive/Documents/GitHub/Minecraft/Minecraft V2.0/out/build/x64-release/Minecraft V2.0/CMakeFiles/rebuild_cache.dir
