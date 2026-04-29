@@ -69,56 +69,56 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target CMakeTarget
+# Object build statements for EXECUTABLE target main
 
 
 #############################################
-# Order-only phony target for CMakeTarget
+# Order-only phony target for main
 
-build cmake_object_order_depends_target_CMakeTarget: phony || .
+build cmake_object_order_depends_target_main: phony || .
 
-build Minecraft$ V2.0\CMakeFiles\CMakeTarget.dir\src\Main.cpp.obj: CXX_COMPILER__CMakeTarget_unscanned_Debug C$:\Users\aksha\OneDrive\Documents\GitHub\Minecraft\Minecraft$ V2.0\Minecraft$ V2.0\src\Main.cpp || cmake_object_order_depends_target_CMakeTarget
+build Minecraft$ V2.0\CMakeFiles\main.dir\src\Main.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:\Users\aksha\OneDrive\Documents\GitHub\Minecraft\Minecraft$ V2.0\Minecraft$ V2.0\src\Main.cpp || cmake_object_order_depends_target_main
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
   INCLUDES = -I"C:\Users\aksha\OneDrive\Documents\GitHub\Minecraft\Minecraft V2.0\Minecraft V2.0\include"
-  OBJECT_DIR = "Minecraft V2.0\CMakeFiles\CMakeTarget.dir"
-  OBJECT_FILE_DIR = "Minecraft V2.0\CMakeFiles\CMakeTarget.dir\src"
-  TARGET_COMPILE_PDB = "Minecraft V2.0\CMakeFiles\CMakeTarget.dir\\"
-  TARGET_PDB = "Minecraft V2.0\CMakeTarget.pdb"
-  TARGET_SUPPORT_DIR = "Minecraft V2.0\CMakeFiles\CMakeTarget.dir"
+  OBJECT_DIR = "Minecraft V2.0\CMakeFiles\main.dir"
+  OBJECT_FILE_DIR = "Minecraft V2.0\CMakeFiles\main.dir\src"
+  TARGET_COMPILE_PDB = "Minecraft V2.0\CMakeFiles\main.dir\\"
+  TARGET_PDB = "Minecraft V2.0\main.pdb"
+  TARGET_SUPPORT_DIR = "Minecraft V2.0\CMakeFiles\main.dir"
 
-build Minecraft$ V2.0\CMakeFiles\CMakeTarget.dir\src\glad.c.obj: C_COMPILER__CMakeTarget_unscanned_Debug C$:\Users\aksha\OneDrive\Documents\GitHub\Minecraft\Minecraft$ V2.0\Minecraft$ V2.0\src\glad.c || cmake_object_order_depends_target_CMakeTarget
+build Minecraft$ V2.0\CMakeFiles\main.dir\src\glad.c.obj: C_COMPILER__main_unscanned_Debug C$:\Users\aksha\OneDrive\Documents\GitHub\Minecraft\Minecraft$ V2.0\Minecraft$ V2.0\src\glad.c || cmake_object_order_depends_target_main
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI
   INCLUDES = -I"C:\Users\aksha\OneDrive\Documents\GitHub\Minecraft\Minecraft V2.0\Minecraft V2.0\include"
-  OBJECT_DIR = "Minecraft V2.0\CMakeFiles\CMakeTarget.dir"
-  OBJECT_FILE_DIR = "Minecraft V2.0\CMakeFiles\CMakeTarget.dir\src"
-  TARGET_COMPILE_PDB = "Minecraft V2.0\CMakeFiles\CMakeTarget.dir\\"
-  TARGET_PDB = "Minecraft V2.0\CMakeTarget.pdb"
-  TARGET_SUPPORT_DIR = "Minecraft V2.0\CMakeFiles\CMakeTarget.dir"
+  OBJECT_DIR = "Minecraft V2.0\CMakeFiles\main.dir"
+  OBJECT_FILE_DIR = "Minecraft V2.0\CMakeFiles\main.dir\src"
+  TARGET_COMPILE_PDB = "Minecraft V2.0\CMakeFiles\main.dir\\"
+  TARGET_PDB = "Minecraft V2.0\main.pdb"
+  TARGET_SUPPORT_DIR = "Minecraft V2.0\CMakeFiles\main.dir"
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target CMakeTarget
+# Link build statements for EXECUTABLE target main
 
 
 #############################################
-# Link the executable Minecraft V2.0\CMakeTarget.exe
+# Link the executable Minecraft V2.0\main.exe
 
-build Minecraft$ V2.0\CMakeTarget.exe: CXX_EXECUTABLE_LINKER__CMakeTarget_Debug Minecraft$ V2.0\CMakeFiles\CMakeTarget.dir\src\Main.cpp.obj Minecraft$ V2.0\CMakeFiles\CMakeTarget.dir\src\glad.c.obj
+build Minecraft$ V2.0\main.exe: CXX_EXECUTABLE_LINKER__main_Debug Minecraft$ V2.0\CMakeFiles\main.dir\src\Main.cpp.obj Minecraft$ V2.0\CMakeFiles\main.dir\src\glad.c.obj
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = glfw3.lib  opengl32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   LINK_PATH = -LIBPATH:C:\Users\aksha\OneDrive\DOCUME~1\GitHub\MINECR~1\MINECR~1.0\MINECR~1.0\include\GLFW\LIB-VC~1
-  OBJECT_DIR = "Minecraft V2.0\CMakeFiles\CMakeTarget.dir"
+  OBJECT_DIR = "Minecraft V2.0\CMakeFiles\main.dir"
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = "Minecraft V2.0\CMakeFiles\CMakeTarget.dir\\"
-  TARGET_FILE = "Minecraft V2.0\CMakeTarget.exe"
-  TARGET_IMPLIB = "Minecraft V2.0\CMakeTarget.lib"
-  TARGET_PDB = "Minecraft V2.0\CMakeTarget.pdb"
-  TARGET_SUPPORT_DIR = "Minecraft V2.0\CMakeFiles\CMakeTarget.dir"
+  TARGET_COMPILE_PDB = "Minecraft V2.0\CMakeFiles\main.dir\\"
+  TARGET_FILE = "Minecraft V2.0\main.exe"
+  TARGET_IMPLIB = "Minecraft V2.0\main.lib"
+  TARGET_PDB = "Minecraft V2.0\main.pdb"
+  TARGET_SUPPORT_DIR = "Minecraft V2.0\CMakeFiles\main.dir"
 
 
 #############################################
@@ -146,9 +146,9 @@ build Minecraft$ V2.0\rebuild_cache: phony Minecraft$ V2.0\CMakeFiles\rebuild_ca
 # =============================================================================
 # Target aliases.
 
-build CMakeTarget: phony Minecraft$ V2.0\CMakeTarget.exe
+build main: phony Minecraft$ V2.0\main.exe
 
-build CMakeTarget.exe: phony Minecraft$ V2.0\CMakeTarget.exe
+build main.exe: phony Minecraft$ V2.0\main.exe
 
 # =============================================================================
 # Folder targets.
@@ -165,7 +165,7 @@ build all: phony Minecraft$ V2.0\all
 #############################################
 # Folder: C:/Users/aksha/OneDrive/Documents/GitHub/Minecraft/Minecraft V2.0/out/build/x64-debug/Minecraft V2.0
 
-build Minecraft$ V2.0\all: phony Minecraft$ V2.0\CMakeTarget.exe
+build Minecraft$ V2.0\all: phony Minecraft$ V2.0\main.exe
 
 # =============================================================================
 # Built-in targets

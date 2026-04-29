@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\aksha\\OneDrive\\Documents\\GitHub\\Minecraft\\Minecraft V2.0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aksha\\OneDrive\\Documents\\GitHub\\Minecraft\\Minecraft V2.0\\Minecraft V2.0\\src\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Minecraft V2.0\\src\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aksha\\OneDrive\\Documents\\GitHub\\Minecraft\\Minecraft V2.0\\Minecraft V2.0\\shaders\\vert.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Minecraft V2.0\\shaders\\vert.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aksha\\OneDrive\\Documents\\GitHub\\Minecraft\\Minecraft V2.0\\Minecraft V2.0\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Minecraft V2.0\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aksha\\OneDrive\\Documents\\GitHub\\Minecraft\\Minecraft V2.0\\Minecraft V2.0\\shaders\\frag.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Minecraft V2.0\\shaders\\frag.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aksha\\OneDrive\\Documents\\GitHub\\Minecraft\\Minecraft V2.0\\Minecraft V2.0\\src\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Minecraft V2.0\\src\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\aksha\\OneDrive\\Documents\\GitHub\\Minecraft\\Minecraft V2.0\\Minecraft V2.0\\src\\Main.cpp",
               "RelativeDocumentMoniker": "Minecraft V2.0\\src\\Main.cpp",
               "ToolTip": "C:\\Users\\aksha\\OneDrive\\Documents\\GitHub\\Minecraft\\Minecraft V2.0\\Minecraft V2.0\\src\\Main.cpp",
               "RelativeToolTip": "Minecraft V2.0\\src\\Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-28T04:07:18.555Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CMakeLists.txt",
-              "DocumentMoniker": "C:\\Users\\aksha\\OneDrive\\Documents\\GitHub\\Minecraft\\Minecraft V2.0\\Minecraft V2.0\\CMakeLists.txt",
-              "RelativeDocumentMoniker": "Minecraft V2.0\\CMakeLists.txt",
-              "ToolTip": "C:\\Users\\aksha\\OneDrive\\Documents\\GitHub\\Minecraft\\Minecraft V2.0\\Minecraft V2.0\\CMakeLists.txt",
-              "RelativeToolTip": "Minecraft V2.0\\CMakeLists.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-04-28T04:31:28.727Z",
+              "Title": "frag.glsl",
+              "DocumentMoniker": "C:\\Users\\aksha\\OneDrive\\Documents\\GitHub\\Minecraft\\Minecraft V2.0\\Minecraft V2.0\\shaders\\frag.glsl",
+              "RelativeDocumentMoniker": "Minecraft V2.0\\shaders\\frag.glsl",
+              "ToolTip": "C:\\Users\\aksha\\OneDrive\\Documents\\GitHub\\Minecraft\\Minecraft V2.0\\Minecraft V2.0\\shaders\\frag.glsl",
+              "RelativeToolTip": "Minecraft V2.0\\shaders\\frag.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-28T17:43:44.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "vert.glsl",
+              "DocumentMoniker": "C:\\Users\\aksha\\OneDrive\\Documents\\GitHub\\Minecraft\\Minecraft V2.0\\Minecraft V2.0\\shaders\\vert.glsl",
+              "RelativeDocumentMoniker": "Minecraft V2.0\\shaders\\vert.glsl",
+              "ToolTip": "C:\\Users\\aksha\\OneDrive\\Documents\\GitHub\\Minecraft\\Minecraft V2.0\\Minecraft V2.0\\shaders\\vert.glsl",
+              "RelativeToolTip": "Minecraft V2.0\\shaders\\vert.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-28T17:43:40.313Z",
               "EditorCaption": ""
             }
           ]
