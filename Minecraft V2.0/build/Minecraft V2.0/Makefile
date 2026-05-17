@@ -117,25 +117,49 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Minecraft\ V2.0/CMakeFiles/CMakeTarget.dir/rule:
-	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/rule"
-.PHONY : Minecraft\ V2.0/CMakeFiles/CMakeTarget.dir/rule
+Minecraft\ V2.0/CMakeFiles/main.dir/rule:
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 "Minecraft V2.0/CMakeFiles/main.dir/rule"
+.PHONY : Minecraft\ V2.0/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-CMakeTarget: Minecraft\ V2.0/CMakeFiles/CMakeTarget.dir/rule
-.PHONY : CMakeTarget
+main: Minecraft\ V2.0/CMakeFiles/main.dir/rule
+.PHONY : main
 
 # fast build rule for target.
-CMakeTarget/fast:
-	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/build.make" "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/build"
-.PHONY : CMakeTarget/fast
+main/fast:
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/build"
+.PHONY : main/fast
+
+src/EBO.o: src/EBO.cpp.o
+.PHONY : src/EBO.o
+
+# target to build an object file
+src/EBO.cpp.o:
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/EBO.cpp.o"
+.PHONY : src/EBO.cpp.o
+
+src/EBO.i: src/EBO.cpp.i
+.PHONY : src/EBO.i
+
+# target to preprocess a source file
+src/EBO.cpp.i:
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/EBO.cpp.i"
+.PHONY : src/EBO.cpp.i
+
+src/EBO.s: src/EBO.cpp.s
+.PHONY : src/EBO.s
+
+# target to generate assembly for a file
+src/EBO.cpp.s:
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/EBO.cpp.s"
+.PHONY : src/EBO.cpp.s
 
 src/Main.o: src/Main.cpp.o
 .PHONY : src/Main.o
 
 # target to build an object file
 src/Main.cpp.o:
-	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/build.make" "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/src/Main.cpp.o"
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/Main.cpp.o"
 .PHONY : src/Main.cpp.o
 
 src/Main.i: src/Main.cpp.i
@@ -143,7 +167,7 @@ src/Main.i: src/Main.cpp.i
 
 # target to preprocess a source file
 src/Main.cpp.i:
-	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/build.make" "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/src/Main.cpp.i"
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/Main.cpp.i"
 .PHONY : src/Main.cpp.i
 
 src/Main.s: src/Main.cpp.s
@@ -151,15 +175,63 @@ src/Main.s: src/Main.cpp.s
 
 # target to generate assembly for a file
 src/Main.cpp.s:
-	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/build.make" "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/src/Main.cpp.s"
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/Main.cpp.s"
 .PHONY : src/Main.cpp.s
+
+src/VAO.o: src/VAO.cpp.o
+.PHONY : src/VAO.o
+
+# target to build an object file
+src/VAO.cpp.o:
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/VAO.cpp.o"
+.PHONY : src/VAO.cpp.o
+
+src/VAO.i: src/VAO.cpp.i
+.PHONY : src/VAO.i
+
+# target to preprocess a source file
+src/VAO.cpp.i:
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/VAO.cpp.i"
+.PHONY : src/VAO.cpp.i
+
+src/VAO.s: src/VAO.cpp.s
+.PHONY : src/VAO.s
+
+# target to generate assembly for a file
+src/VAO.cpp.s:
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/VAO.cpp.s"
+.PHONY : src/VAO.cpp.s
+
+src/VBO.o: src/VBO.cpp.o
+.PHONY : src/VBO.o
+
+# target to build an object file
+src/VBO.cpp.o:
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/VBO.cpp.o"
+.PHONY : src/VBO.cpp.o
+
+src/VBO.i: src/VBO.cpp.i
+.PHONY : src/VBO.i
+
+# target to preprocess a source file
+src/VBO.cpp.i:
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/VBO.cpp.i"
+.PHONY : src/VBO.cpp.i
+
+src/VBO.s: src/VBO.cpp.s
+.PHONY : src/VBO.s
+
+# target to generate assembly for a file
+src/VBO.cpp.s:
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/VBO.cpp.s"
+.PHONY : src/VBO.cpp.s
 
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
 # target to build an object file
 src/glad.c.o:
-	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/build.make" "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/src/glad.c.o"
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/glad.c.o"
 .PHONY : src/glad.c.o
 
 src/glad.i: src/glad.c.i
@@ -167,7 +239,7 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
-	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/build.make" "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/src/glad.c.i"
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/glad.c.i"
 .PHONY : src/glad.c.i
 
 src/glad.s: src/glad.c.s
@@ -175,7 +247,7 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
-	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/build.make" "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/src/glad.c.s"
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/glad.c.s"
 .PHONY : src/glad.c.s
 
 # Help Target
@@ -186,10 +258,19 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... CMakeTarget"
+	@echo "... main"
+	@echo "... src/EBO.o"
+	@echo "... src/EBO.i"
+	@echo "... src/EBO.s"
 	@echo "... src/Main.o"
 	@echo "... src/Main.i"
 	@echo "... src/Main.s"
+	@echo "... src/VAO.o"
+	@echo "... src/VAO.i"
+	@echo "... src/VAO.s"
+	@echo "... src/VBO.o"
+	@echo "... src/VBO.i"
+	@echo "... src/VBO.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"

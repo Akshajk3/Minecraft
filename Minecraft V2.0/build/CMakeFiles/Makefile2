@@ -82,11 +82,11 @@ clean: Minecraft\ V2.0/clean
 # Directory level rules for directory Minecraft\ V2.0
 
 # Recursive "all" directory target.
-Minecraft\ V2.0/all: Minecraft\ V2.0/CMakeFiles/CMakeTarget.dir/all
+Minecraft\ V2.0/all: Minecraft\ V2.0/CMakeFiles/main.dir/all
 .PHONY : Minecraft\ V2.0/all
 
 # Recursive "codegen" directory target.
-Minecraft\ V2.0/codegen: Minecraft\ V2.0/CMakeFiles/CMakeTarget.dir/codegen
+Minecraft\ V2.0/codegen: Minecraft\ V2.0/CMakeFiles/main.dir/codegen
 .PHONY : Minecraft\ V2.0/codegen
 
 # Recursive "preinstall" directory target.
@@ -94,40 +94,40 @@ Minecraft\ V2.0/preinstall:
 .PHONY : Minecraft\ V2.0/preinstall
 
 # Recursive "clean" directory target.
-Minecraft\ V2.0/clean: Minecraft\ V2.0/CMakeFiles/CMakeTarget.dir/clean
+Minecraft\ V2.0/clean: Minecraft\ V2.0/CMakeFiles/main.dir/clean
 .PHONY : Minecraft\ V2.0/clean
 
 #=============================================================================
-# Target rules for target Minecraft V2.0/CMakeFiles/CMakeTarget.dir
+# Target rules for target Minecraft V2.0/CMakeFiles/main.dir
 
 # All Build rule for target.
-Minecraft\ V2.0/CMakeFiles/CMakeTarget.dir/all:
-	$(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/build.make" "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/depend"
-	$(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/build.make" "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/CMakeFiles" --progress-num=1,2,3 "Built target CMakeTarget"
-.PHONY : Minecraft\ V2.0/CMakeFiles/CMakeTarget.dir/all
+Minecraft\ V2.0/CMakeFiles/main.dir/all:
+	$(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/depend"
+	$(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target main"
+.PHONY : Minecraft\ V2.0/CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
-Minecraft\ V2.0/CMakeFiles/CMakeTarget.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/CMakeFiles" 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/all"
+Minecraft\ V2.0/CMakeFiles/main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/CMakeFiles" 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 "Minecraft V2.0/CMakeFiles/main.dir/all"
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/CMakeFiles" 0
-.PHONY : Minecraft\ V2.0/CMakeFiles/CMakeTarget.dir/rule
+.PHONY : Minecraft\ V2.0/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-CMakeTarget: Minecraft\ V2.0/CMakeFiles/CMakeTarget.dir/rule
-.PHONY : CMakeTarget
+main: Minecraft\ V2.0/CMakeFiles/main.dir/rule
+.PHONY : main
 
 # codegen rule for target.
-Minecraft\ V2.0/CMakeFiles/CMakeTarget.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/build.make" "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/codegen"
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/CMakeFiles" --progress-num=1,2,3 "Finished codegen for target CMakeTarget"
-.PHONY : Minecraft\ V2.0/CMakeFiles/CMakeTarget.dir/codegen
+Minecraft\ V2.0/CMakeFiles/main.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/codegen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/CMakeFiles" --progress-num=1,2,3,4,5,6 "Finished codegen for target main"
+.PHONY : Minecraft\ V2.0/CMakeFiles/main.dir/codegen
 
 # clean rule for target.
-Minecraft\ V2.0/CMakeFiles/CMakeTarget.dir/clean:
-	$(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/build.make" "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/clean"
-.PHONY : Minecraft\ V2.0/CMakeFiles/CMakeTarget.dir/clean
+Minecraft\ V2.0/CMakeFiles/main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/clean"
+.PHONY : Minecraft\ V2.0/CMakeFiles/main.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

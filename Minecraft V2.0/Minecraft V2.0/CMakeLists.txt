@@ -3,12 +3,13 @@
 add_executable(main ${SOURCES})
 
 target_include_directories(main PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/Dependencies
     ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
 if (WIN32)
     target_link_directories(main PRIVATE
-        ${CMAKE_CURRENT_SOURCE_DIR}/include/GLFW/lib-vc2022
+        ${CMAKE_CURRENT_SOURCE_DIR}/include/Dependencies/GLFW/lib-vc2022
     )
     target_link_libraries(main PRIVATE
         glfw3

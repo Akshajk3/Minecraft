@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CMakeTarget
+# Target rules for targets named main
 
 # Build rule for target.
-CMakeTarget: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeTarget
-.PHONY : CMakeTarget
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-CMakeTarget/fast:
-	$(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/build.make" "Minecraft V2.0/CMakeFiles/CMakeTarget.dir/build"
-.PHONY : CMakeTarget/fast
+main/fast:
+	$(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/build"
+.PHONY : main/fast
 
 # Help Target
 help:
@@ -137,7 +137,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... CMakeTarget"
+	@echo "... main"
 .PHONY : help
 
 
