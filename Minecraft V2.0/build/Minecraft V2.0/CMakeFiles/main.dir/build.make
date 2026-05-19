@@ -100,10 +100,38 @@ Minecraft\ V2.0/CMakeFiles/main.dir/src/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Main.cpp.s"
 	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/Minecraft V2.0" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/Minecraft V2.0/src/Main.cpp" -o CMakeFiles/main.dir/src/Main.cpp.s
 
+Minecraft\ V2.0/CMakeFiles/main.dir/src/Shader.cpp.o: Minecraft\ V2.0/CMakeFiles/main.dir/flags.make
+Minecraft\ V2.0/CMakeFiles/main.dir/src/Shader.cpp.o: /Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft\ V2.0/Minecraft\ V2.0/src/Shader.cpp
+Minecraft\ V2.0/CMakeFiles/main.dir/src/Shader.cpp.o: Minecraft\ V2.0/CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Minecraft V2.0/CMakeFiles/main.dir/src/Shader.cpp.o"
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/Minecraft V2.0" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT "Minecraft\\ V2.0/CMakeFiles/main.dir/src/Shader.cpp.o" -MF CMakeFiles/main.dir/src/Shader.cpp.o.d -o CMakeFiles/main.dir/src/Shader.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/Minecraft V2.0/src/Shader.cpp"
+
+Minecraft\ V2.0/CMakeFiles/main.dir/src/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Shader.cpp.i"
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/Minecraft V2.0" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/Minecraft V2.0/src/Shader.cpp" > CMakeFiles/main.dir/src/Shader.cpp.i
+
+Minecraft\ V2.0/CMakeFiles/main.dir/src/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Shader.cpp.s"
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/Minecraft V2.0" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/Minecraft V2.0/src/Shader.cpp" -o CMakeFiles/main.dir/src/Shader.cpp.s
+
+Minecraft\ V2.0/CMakeFiles/main.dir/src/ShaderProgram.cpp.o: Minecraft\ V2.0/CMakeFiles/main.dir/flags.make
+Minecraft\ V2.0/CMakeFiles/main.dir/src/ShaderProgram.cpp.o: /Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft\ V2.0/Minecraft\ V2.0/src/ShaderProgram.cpp
+Minecraft\ V2.0/CMakeFiles/main.dir/src/ShaderProgram.cpp.o: Minecraft\ V2.0/CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Minecraft V2.0/CMakeFiles/main.dir/src/ShaderProgram.cpp.o"
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/Minecraft V2.0" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT "Minecraft\\ V2.0/CMakeFiles/main.dir/src/ShaderProgram.cpp.o" -MF CMakeFiles/main.dir/src/ShaderProgram.cpp.o.d -o CMakeFiles/main.dir/src/ShaderProgram.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/Minecraft V2.0/src/ShaderProgram.cpp"
+
+Minecraft\ V2.0/CMakeFiles/main.dir/src/ShaderProgram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/ShaderProgram.cpp.i"
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/Minecraft V2.0" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/Minecraft V2.0/src/ShaderProgram.cpp" > CMakeFiles/main.dir/src/ShaderProgram.cpp.i
+
+Minecraft\ V2.0/CMakeFiles/main.dir/src/ShaderProgram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/ShaderProgram.cpp.s"
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/Minecraft V2.0" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/Minecraft V2.0/src/ShaderProgram.cpp" -o CMakeFiles/main.dir/src/ShaderProgram.cpp.s
+
 Minecraft\ V2.0/CMakeFiles/main.dir/src/VAO.cpp.o: Minecraft\ V2.0/CMakeFiles/main.dir/flags.make
 Minecraft\ V2.0/CMakeFiles/main.dir/src/VAO.cpp.o: /Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft\ V2.0/Minecraft\ V2.0/src/VAO.cpp
 Minecraft\ V2.0/CMakeFiles/main.dir/src/VAO.cpp.o: Minecraft\ V2.0/CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Minecraft V2.0/CMakeFiles/main.dir/src/VAO.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Minecraft V2.0/CMakeFiles/main.dir/src/VAO.cpp.o"
 	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/Minecraft V2.0" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT "Minecraft\\ V2.0/CMakeFiles/main.dir/src/VAO.cpp.o" -MF CMakeFiles/main.dir/src/VAO.cpp.o.d -o CMakeFiles/main.dir/src/VAO.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/Minecraft V2.0/src/VAO.cpp"
 
 Minecraft\ V2.0/CMakeFiles/main.dir/src/VAO.cpp.i: cmake_force
@@ -117,7 +145,7 @@ Minecraft\ V2.0/CMakeFiles/main.dir/src/VAO.cpp.s: cmake_force
 Minecraft\ V2.0/CMakeFiles/main.dir/src/VBO.cpp.o: Minecraft\ V2.0/CMakeFiles/main.dir/flags.make
 Minecraft\ V2.0/CMakeFiles/main.dir/src/VBO.cpp.o: /Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft\ V2.0/Minecraft\ V2.0/src/VBO.cpp
 Minecraft\ V2.0/CMakeFiles/main.dir/src/VBO.cpp.o: Minecraft\ V2.0/CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Minecraft V2.0/CMakeFiles/main.dir/src/VBO.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Minecraft V2.0/CMakeFiles/main.dir/src/VBO.cpp.o"
 	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/Minecraft V2.0" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT "Minecraft\\ V2.0/CMakeFiles/main.dir/src/VBO.cpp.o" -MF CMakeFiles/main.dir/src/VBO.cpp.o.d -o CMakeFiles/main.dir/src/VBO.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/Minecraft V2.0/src/VBO.cpp"
 
 Minecraft\ V2.0/CMakeFiles/main.dir/src/VBO.cpp.i: cmake_force
@@ -131,7 +159,7 @@ Minecraft\ V2.0/CMakeFiles/main.dir/src/VBO.cpp.s: cmake_force
 Minecraft\ V2.0/CMakeFiles/main.dir/src/glad.c.o: Minecraft\ V2.0/CMakeFiles/main.dir/flags.make
 Minecraft\ V2.0/CMakeFiles/main.dir/src/glad.c.o: /Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft\ V2.0/Minecraft\ V2.0/src/glad.c
 Minecraft\ V2.0/CMakeFiles/main.dir/src/glad.c.o: Minecraft\ V2.0/CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object Minecraft V2.0/CMakeFiles/main.dir/src/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object Minecraft V2.0/CMakeFiles/main.dir/src/glad.c.o"
 	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/Minecraft V2.0" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT "Minecraft\\ V2.0/CMakeFiles/main.dir/src/glad.c.o" -MF CMakeFiles/main.dir/src/glad.c.o.d -o CMakeFiles/main.dir/src/glad.c.o -c "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/Minecraft V2.0/src/glad.c"
 
 Minecraft\ V2.0/CMakeFiles/main.dir/src/glad.c.i: cmake_force
@@ -146,6 +174,8 @@ Minecraft\ V2.0/CMakeFiles/main.dir/src/glad.c.s: cmake_force
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/EBO.cpp.o" \
 "CMakeFiles/main.dir/src/Main.cpp.o" \
+"CMakeFiles/main.dir/src/Shader.cpp.o" \
+"CMakeFiles/main.dir/src/ShaderProgram.cpp.o" \
 "CMakeFiles/main.dir/src/VAO.cpp.o" \
 "CMakeFiles/main.dir/src/VBO.cpp.o" \
 "CMakeFiles/main.dir/src/glad.c.o"
@@ -155,12 +185,14 @@ main_EXTERNAL_OBJECTS =
 
 Minecraft\ V2.0/main: Minecraft\ V2.0/CMakeFiles/main.dir/src/EBO.cpp.o
 Minecraft\ V2.0/main: Minecraft\ V2.0/CMakeFiles/main.dir/src/Main.cpp.o
+Minecraft\ V2.0/main: Minecraft\ V2.0/CMakeFiles/main.dir/src/Shader.cpp.o
+Minecraft\ V2.0/main: Minecraft\ V2.0/CMakeFiles/main.dir/src/ShaderProgram.cpp.o
 Minecraft\ V2.0/main: Minecraft\ V2.0/CMakeFiles/main.dir/src/VAO.cpp.o
 Minecraft\ V2.0/main: Minecraft\ V2.0/CMakeFiles/main.dir/src/VBO.cpp.o
 Minecraft\ V2.0/main: Minecraft\ V2.0/CMakeFiles/main.dir/src/glad.c.o
 Minecraft\ V2.0/main: Minecraft\ V2.0/CMakeFiles/main.dir/build.make
 Minecraft\ V2.0/main: Minecraft\ V2.0/CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable main"
 	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build/Minecraft V2.0" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

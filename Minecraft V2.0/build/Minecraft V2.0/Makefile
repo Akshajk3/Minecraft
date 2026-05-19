@@ -178,6 +178,54 @@ src/Main.cpp.s:
 	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/Main.cpp.s"
 .PHONY : src/Main.cpp.s
 
+src/Shader.o: src/Shader.cpp.o
+.PHONY : src/Shader.o
+
+# target to build an object file
+src/Shader.cpp.o:
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/Shader.cpp.o"
+.PHONY : src/Shader.cpp.o
+
+src/Shader.i: src/Shader.cpp.i
+.PHONY : src/Shader.i
+
+# target to preprocess a source file
+src/Shader.cpp.i:
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/Shader.cpp.i"
+.PHONY : src/Shader.cpp.i
+
+src/Shader.s: src/Shader.cpp.s
+.PHONY : src/Shader.s
+
+# target to generate assembly for a file
+src/Shader.cpp.s:
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/Shader.cpp.s"
+.PHONY : src/Shader.cpp.s
+
+src/ShaderProgram.o: src/ShaderProgram.cpp.o
+.PHONY : src/ShaderProgram.o
+
+# target to build an object file
+src/ShaderProgram.cpp.o:
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/ShaderProgram.cpp.o"
+.PHONY : src/ShaderProgram.cpp.o
+
+src/ShaderProgram.i: src/ShaderProgram.cpp.i
+.PHONY : src/ShaderProgram.i
+
+# target to preprocess a source file
+src/ShaderProgram.cpp.i:
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/ShaderProgram.cpp.i"
+.PHONY : src/ShaderProgram.cpp.i
+
+src/ShaderProgram.s: src/ShaderProgram.cpp.s
+.PHONY : src/ShaderProgram.s
+
+# target to generate assembly for a file
+src/ShaderProgram.cpp.s:
+	cd "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/build" && $(MAKE) $(MAKESILENT) -f "Minecraft V2.0/CMakeFiles/main.dir/build.make" "Minecraft V2.0/CMakeFiles/main.dir/src/ShaderProgram.cpp.s"
+.PHONY : src/ShaderProgram.cpp.s
+
 src/VAO.o: src/VAO.cpp.o
 .PHONY : src/VAO.o
 
@@ -265,6 +313,12 @@ help:
 	@echo "... src/Main.o"
 	@echo "... src/Main.i"
 	@echo "... src/Main.s"
+	@echo "... src/Shader.o"
+	@echo "... src/Shader.i"
+	@echo "... src/Shader.s"
+	@echo "... src/ShaderProgram.o"
+	@echo "... src/ShaderProgram.i"
+	@echo "... src/ShaderProgram.s"
 	@echo "... src/VAO.o"
 	@echo "... src/VAO.i"
 	@echo "... src/VAO.s"

@@ -11,6 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/Minecraft V2.0/src/glad.c" "Minecraft V2.0/CMakeFiles/main.dir/src/glad.c.o" "gcc" "Minecraft V2.0/CMakeFiles/main.dir/src/glad.c.o.d"
   "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/Minecraft V2.0/src/EBO.cpp" "Minecraft V2.0/CMakeFiles/main.dir/src/EBO.cpp.o" "gcc" "Minecraft V2.0/CMakeFiles/main.dir/src/EBO.cpp.o.d"
   "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/Minecraft V2.0/src/Main.cpp" "Minecraft V2.0/CMakeFiles/main.dir/src/Main.cpp.o" "gcc" "Minecraft V2.0/CMakeFiles/main.dir/src/Main.cpp.o.d"
+  "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/Minecraft V2.0/src/Shader.cpp" "Minecraft V2.0/CMakeFiles/main.dir/src/Shader.cpp.o" "gcc" "Minecraft V2.0/CMakeFiles/main.dir/src/Shader.cpp.o.d"
+  "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/Minecraft V2.0/src/ShaderProgram.cpp" "Minecraft V2.0/CMakeFiles/main.dir/src/ShaderProgram.cpp.o" "gcc" "Minecraft V2.0/CMakeFiles/main.dir/src/ShaderProgram.cpp.o.d"
   "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/Minecraft V2.0/src/VAO.cpp" "Minecraft V2.0/CMakeFiles/main.dir/src/VAO.cpp.o" "gcc" "Minecraft V2.0/CMakeFiles/main.dir/src/VAO.cpp.o.d"
   "/Users/akshajkanumuri/Documents/GitHub/Minecraft/Minecraft V2.0/Minecraft V2.0/src/VBO.cpp" "Minecraft V2.0/CMakeFiles/main.dir/src/VBO.cpp.o" "gcc" "Minecraft V2.0/CMakeFiles/main.dir/src/VBO.cpp.o.d"
   )
