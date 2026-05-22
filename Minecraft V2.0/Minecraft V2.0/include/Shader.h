@@ -11,4 +11,7 @@ class Shader {
 public:
     GLuint ID;
     Shader(const char* shaderFile, GLenum type);
+
+private:
+    void compileErrors();
 };

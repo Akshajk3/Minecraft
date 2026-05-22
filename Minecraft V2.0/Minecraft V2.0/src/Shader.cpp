@@ -23,4 +23,18 @@ Shader::Shader(const char* filename, GLenum type) {
     ID = glCreateShader(type);
     glShaderSource(ID, 1, &shaderSource, NULL);
     glCompileShader(ID);
+    compileErrors();
+}
+
+void Shader::compileErrors() {
+    GLint hasCompiled;
+
+    char infoLog[1024];
+
+    glGetShaderiv(ID, GL_COMPILE_STATUS, &hasCompiled);
+
+    if (hasCompiled == GL_FALSE) {
+        glGetShaderInfoLog(ID, sizeof(infoLog), NULL, infoLog);
+        std::cout << "SHADER_COMPILATION_ERROR: " << "\n" << infoLog << std::endl;
+    }
 }

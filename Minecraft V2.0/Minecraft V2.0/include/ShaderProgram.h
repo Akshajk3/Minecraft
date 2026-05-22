@@ -13,4 +13,7 @@ public:
     void Link();
     void Activate();
     void Delete();
+
+private:
+    void compileErrors();
 };
